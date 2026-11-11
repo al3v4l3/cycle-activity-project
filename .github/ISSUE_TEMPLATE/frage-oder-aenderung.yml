@@ -1,0 +1,31 @@
+name: Frage oder Änderungswunsch
+description: Eine offene Frage, API-Recherche oder Änderung am Umfang nachvollziehbar klären
+title: "[Klärung] "
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Frage und Anlass
+      description: Welches Problem oder welche Unsicherheit wollen wir klären?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Quellen und Optionen
+      description: Quelle mit Datum, gesicherte Fakten und Annahmen getrennt aufführen.
+  - type: textarea
+    id: impact
+    attributes:
+      label: Auswirkungen und Planung
+      value: |
+        Status: Offen
+        Verantwortlich / Prüfung: offen
+        Betroffene Anforderungen / Stories: offen
+        Auswirkung auf Umfang und Zeit: offen
+        Recherche-Zeitbudget: offen
+  - type: textarea
+    id: decision
+    attributes:
+      label: Ergebnis und Entscheidung
+      description: Nach Klärung hier und im Entscheidungsprotokoll festhalten; vorher offenlassen.

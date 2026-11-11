@@ -1,0 +1,13 @@
+# Private course material stays on the local machine.
+/Vorlesungsmaterial/
+/private-notes/
+/interview-raw/
+.DS_Store
+~$*
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+node_modules/
+dist/

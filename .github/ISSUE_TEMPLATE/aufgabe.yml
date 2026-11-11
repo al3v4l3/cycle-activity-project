@@ -1,0 +1,38 @@
+name: Aufgabe
+description: Ein klar abgegrenztes Arbeitspaket mit Ergebnis und Fertig-Kriterien
+title: "[Task] "
+body:
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Ergebnis und Bezug
+      description: Was liefern wir? Welche Story, Anforderung oder Projektaufgabe gehört dazu?
+    validations:
+      required: true
+  - type: textarea
+    id: organisation
+    attributes:
+      label: Planung
+      value: |
+        Status: Offen
+        Verantwortlich: offen
+        Prüfung durch: offen
+        Priorität: 10 / 20 / 50
+        Aufwand in Personenstunden und Annahmen: offen
+        Zieltermin: offen
+        Abhängigkeiten: offen
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Fertig-Kriterien
+      value: |
+        - [ ] Ergebnis ist im zuständigen Dokument verlinkt.
+        - [ ] Inhalt wurde durch eine zweite Person geprüft.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Ergebnislink und offene Fragen
