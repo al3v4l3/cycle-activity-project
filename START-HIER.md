@@ -28,7 +28,7 @@ Tragt eure vier Namen oder GitHub-Nutzernamen in [Team und Plan](docs/05-team-un
 
 ## 30 bis 45 Minuten · Erste Aufgaben übernehmen
 
-Öffnet die GitHub Issues beziehungsweise die Aufgabenliste im Arbeitsplan. Beginnt mit diesen vier Paketen, sofern die gemeinsame Abstimmung abgeschlossen ist:
+Öffnet die [GitHub Issues](https://github.com/al3v4l3/cycle-activity-project/issues) beziehungsweise die Aufgabenliste im Arbeitsplan. Beginnt mit diesen vier Paketen, sofern die gemeinsame Abstimmung abgeschlossen ist:
 
 | Person | Erstes Arbeitspaket | Sichtbares Ergebnis |
 | --- | --- | --- |

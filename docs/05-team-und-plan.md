@@ -43,16 +43,16 @@ Alle Status sind **offen**. Aufwand ist ein grober Startbereich in **Personenstu
 
 | ID | Aufgabe / Ergebnis | Verantwortung | Prio | Startschätzung | Voraussetzung |
 | --- | --- | --- | --- | --- | --- |
-| T-01 | Teamstart: Zielgruppe, Kernablauf, Rollen, verfügbare Zeit und nächstes Treffen festhalten | alle, D moderiert | 10 | 4 h für 4 × 1 h | keine |
-| T-02 | Abgabevorgaben und Präsentation klären; Antworten mit Quelle erfassen | B | 10 | 0,5–1 h | keine |
-| T-03 | Zwei bis drei Bedarfsgespräche durchführen und Erkenntnisse zusammenfassen | A | 10 | 2–4 h | T-01 |
-| T-04 | Drei Vergleichsangebote untersuchen und API-/PWA-Grenzen bewerten | C | 10 | 2–3 h | T-01 |
-| T-05 | Lastenheft und Kernstories anhand T-03/T-04 überarbeiten und priorisieren | B | 10 | 2–3 h | T-03, T-04 |
-| T-06 | Drei bis fünf grobe Bildschirme für den Kernablauf erstellen | D | 10 | 2–4 h | T-05 |
-| T-07 | Pflichtenheft, Datenmodell und Lösungsentscheidung konkretisieren | C | 20 | 2–3 h | T-05, Abstimmung mit T-06 |
-| T-08 | Prototyp mit zwei bis drei Personen prüfen, Probleme und Änderungen festhalten | A, D prüft | 10 | 3–5 h | T-06, Testaufgaben |
-| T-09 | Wöchentliche Planung, Review und Retro dokumentieren | D moderiert, alle | 10 | 2,5–3,5 h je Woche insgesamt | feste Termine |
-| T-10 | Zwischenpräsentation aus echten Nachweisen erstellen und proben | D, alle liefern Beiträge | 10 | 4–6 h insgesamt | Ergebnisse aus W1–W3 |
+| [T-01](https://github.com/al3v4l3/cycle-activity-project/issues/1) | Teamstart: Zielgruppe, Kernablauf, Rollen, verfügbare Zeit und nächstes Treffen festhalten | alle, D moderiert | 10 | 4 h für 4 × 1 h | keine |
+| [T-02](https://github.com/al3v4l3/cycle-activity-project/issues/2) | Abgabevorgaben und Präsentation klären; Antworten mit Quelle erfassen | B | 10 | 0,5–1 h | keine |
+| [T-03](https://github.com/al3v4l3/cycle-activity-project/issues/3) | Zwei bis drei Bedarfsgespräche durchführen und Erkenntnisse zusammenfassen | A | 10 | 2–4 h | [T-01](https://github.com/al3v4l3/cycle-activity-project/issues/1) |
+| [T-04](https://github.com/al3v4l3/cycle-activity-project/issues/4) | Drei Vergleichsangebote untersuchen und API-/PWA-Grenzen bewerten | C | 10 | 2–3 h | [T-01](https://github.com/al3v4l3/cycle-activity-project/issues/1) |
+| [T-05](https://github.com/al3v4l3/cycle-activity-project/issues/5) | Lastenheft und Kernstories anhand T-03/T-04 überarbeiten und priorisieren | B | 10 | 2–3 h | T-03, T-04 |
+| [T-06](https://github.com/al3v4l3/cycle-activity-project/issues/6) | Drei bis fünf grobe Bildschirme für den Kernablauf erstellen | D | 10 | 2–4 h | [T-05](https://github.com/al3v4l3/cycle-activity-project/issues/5) |
+| [T-07](https://github.com/al3v4l3/cycle-activity-project/issues/7) | Pflichtenheft, Datenmodell und Lösungsentscheidung konkretisieren | C | 20 | 2–3 h | T-05, Abstimmung mit T-06 |
+| [T-08](https://github.com/al3v4l3/cycle-activity-project/issues/8) | Prototyp mit zwei bis drei Personen prüfen, Probleme und Änderungen festhalten | A, D prüft | 10 | 3–5 h | T-06, Testaufgaben |
+| [T-09](https://github.com/al3v4l3/cycle-activity-project/issues/9) | Wöchentliche Planung, Review und Retro dokumentieren | D moderiert, alle | 10 | 2,5–3,5 h je Woche insgesamt | feste Termine |
+| [T-10](https://github.com/al3v4l3/cycle-activity-project/issues/10) | Zwischenpräsentation aus echten Nachweisen erstellen und proben | D, alle liefern Beiträge | 10 | 4–6 h insgesamt | Ergebnisse aus W1–W3 |
 
 **Fertig-Kriterien und ausführliche Arbeitsschritte stehen in den jeweiligen GitHub Issues.** Diese Tabelle ist die Startübersicht; den laufenden Aufgabenstatus pflegen wir ausschließlich dort. Die wiederkehrende Aufgabe T-09 wird pro Woche abgehakt und bleibt bis zur dritten Woche offen.
 

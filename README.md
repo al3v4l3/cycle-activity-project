@@ -14,7 +14,7 @@ Arbeitstitel: **CSAH**. „Cycle Sync Activity Hub“ und „Cycle, Strength, Aw
 | festhalten, für wen wir welches Problem lösen | [Lastenheft](docs/02-lastenheft.md) |
 | beschreiben, wie wir Anforderungen umsetzen wollen | [Pflichtenheft](docs/03-pflichtenheft.md) |
 | User Stories und Akzeptanzkriterien bearbeiten | [Product Backlog](docs/04-user-stories.md) |
-| Aufgaben übernehmen und drei Wochen planen | [Team und Arbeitsplan](docs/05-team-und-plan.md) und GitHub Issues |
+| Aufgaben übernehmen und drei Wochen planen | [Team und Arbeitsplan](docs/05-team-und-plan.md) und [GitHub Issues](https://github.com/al3v4l3/cycle-activity-project/issues) |
 | APIs und vorhandene Lösungen vergleichen | [Recherche](docs/06-recherche.md) |
 | Interviews und Tests vorbereiten | [Erhebung und Qualität](docs/07-erhebung-und-qualitaet.md) |
 | unsere Zwischenpräsentation vorbereiten | [Präsentationsleitfaden](docs/08-zwischenpraesentation.md) |
