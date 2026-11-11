@@ -19,7 +19,7 @@ body:
     attributes:
       label: Auswirkungen und Planung
       value: |
-        Status: Offen
+        Arbeitsstatus: im Kanban-Board pflegen
         Verantwortlich / Prüfung: offen
         Betroffene Anforderungen / Stories: offen
         Auswirkung auf Umfang und Zeit: offen

@@ -41,13 +41,13 @@ Prioritäten: **10 = zuerst notwendig, 20 = anschließend sinnvoll, 50 = später
 
 ## Umfang des ersten Entwurfs
 
-**Zur Diskussion:** Ein Tages-Check-in, eine einfache Trainingserfassung und ein gemeinsamer Verlauf. Freiwilligkeit, Fehlerfälle und Löschung gehören zu diesem Ablauf. Für die Zwischenpräsentation soll zunächst ein prüfbarer Prototyp dieses Ablaufs entstehen. Eine funktionsfähige App ist damit noch nicht zugesagt.
+**Zur Diskussion:** Ein Tages-Check-in, eine einfache Trainingserfassung und ein gemeinsamer Verlauf. Freiwilligkeit, Fehlerfälle und Löschung gehören zu diesem Ablauf. Für die Vorstellung soll eine verständliche Visualisierung dieses Ablaufs entstehen; ein prüfbarer Prototyp ist eine mögliche Vertiefung. Eine funktionsfähige App ist damit noch nicht zugesagt.
 
 **Vorläufig außerhalb:** Ernährungstagebuch, Kalorien- und Fotoerkennung, automatische Trainingspläne nach Zyklusphase, KI-Coach, Wearable-Synchronisation, Flo-Import, Social Feed, Bezahlfunktionen und umfassende Übungsbibliothek. Neue Ideen werden im Backlog geparkt, statt still in den Umfang zu rutschen.
 
 ## Erfolg und Abnahme
 
-Bis zur Zwischenpräsentation soll das Team Bedarfshypothesen mit zwei bis drei Gesprächen prüfen, einen Kernablauf skizzieren und diesen mit zwei bis drei Personen durchgehen. Diese kleine Anzahl dient zum Finden von Problemen, nicht zum Belegen einer repräsentativen Marktlücke.
+Als ergänzende Methode kann das Team Bedarfshypothesen mit zwei bis drei Gesprächen prüfen und eine Ablaufskizze mit zwei bis drei Personen durchgehen. Diese Anzahl ist keine Vorgabe aus der Mitschrift für M1. Diese kleine Anzahl dient zum Finden von Problemen, nicht zum Belegen einer repräsentativen Marktlücke.
 
 Vorgeschlagenes Nutzbarkeitsziel: Mindestens zwei von drei Testpersonen können im Prototyp einen Check-in und einen Trainingseintrag finden und den Verlauf ohne direkte Hilfe erklären. Zielwert vor dem Test im Team bestätigen; tatsächliche Ergebnisse unverändert dokumentieren.
 

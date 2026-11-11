@@ -14,7 +14,7 @@ body:
     attributes:
       label: Planung
       value: |
-        Status: Offen
+        Arbeitsstatus: im Kanban-Board pflegen
         Verantwortlich: offen
         Prüfung durch: offen
         Priorität: 10 / 20 / 50

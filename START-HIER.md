@@ -2,6 +2,8 @@
 
 **Ziel nach 60 Minuten:** Ihr könnt in einem Satz erklären, für wen ihr welches Problem löst. Ihr habt den ersten Umfang eingegrenzt, jede Person hat eine Aufgabe und das nächste Treffen steht fest. Ihr müsst heute noch keine App programmieren.
 
+Lest zuerst die [M1-Checkliste aus der Mitschrift](docs/09-meilenstein-vorstellung.md). Dieses Repository begleitet anschließend auch die Entwicklung und Tests.
+
 ## 0 bis 10 Minuten · Gemeinsames Problem
 
 Lest die [Vision im Lastenheft](docs/02-lastenheft.md). Jede Person nennt eine konkrete Situation, die die App verbessern soll. Beispiel: „Ich möchte im Rückblick sehen, wie anstrengend mein Training an Tagen mit unterschiedlichem Befinden war.“
@@ -28,14 +30,14 @@ Tragt eure vier Namen oder GitHub-Nutzernamen in [Team und Plan](docs/05-team-un
 
 ## 30 bis 45 Minuten · Erste Aufgaben übernehmen
 
-Öffnet die [GitHub Issues](https://github.com/al3v4l3/cycle-activity-project/issues) beziehungsweise die Aufgabenliste im Arbeitsplan. Beginnt mit diesen vier Paketen, sofern die gemeinsame Abstimmung abgeschlossen ist:
+Öffnet das [Kanban-Board](https://github.com/users/al3v4l3/projects/1) und die verknüpften Aufgaben. Beginnt mit diesen vier Paketen, sofern die gemeinsame Abstimmung abgeschlossen ist:
 
 | Person | Erstes Arbeitspaket | Sichtbares Ergebnis |
 | --- | --- | --- |
-| A | Zwei bis drei Bedarfsgespräche vorbereiten und organisieren | Leitfaden und Termine, später anonymisierte Erkenntnisse |
+| A | Einleitung und Motivation ausarbeiten; offene Bedarfsfragen sammeln | Abgestimmter Fließtext und Fragen für ergänzende Gespräche |
 | B | Lastenheft und drei User Stories prüfen | Priorisierte Stories mit prüfbaren Akzeptanzkriterien |
-| C | Bestehende Apps und PWA/API-Grenzen prüfen | Kurzer Vergleich mit Quellen und Entscheidungsvorschlag |
-| D | Ablauf skizzieren und Nachweise strukturieren | Drei bis fünf grobe Bildschirme; Protokoll und Präsentationsgliederung |
+| C | Programmiersprache, Werkzeuge und KI-Unterstützung vergleichen | Begründeter Technologievorschlag; APIs als Teilaspekt |
+| D | Ablauf skizzieren und Nachweise strukturieren | Projektbild oder Wireframe; Kanban und Kommunikationsvereinbarung |
 
 Das sind **Verantwortungsbereiche, keine vier getrennten Teilprojekte**. A und B stimmen Bedürfnisse ab, B und D prüfen den Ablauf, C prüft die Machbarkeit. Zeichnen auf Papier reicht für die erste Skizze. Keine Zugangsdaten oder Gesundheitsdaten in Issues schreiben.
 
@@ -52,6 +54,6 @@ Nehmt US-01. Klärt Rolle, Nutzen, Pflichtfelder, freiwillige Felder und einen F
 - Nächstes Treffen mit Datum und Dauer vereinbaren.
 - Fragen zu Abgabe, Zwischenpräsentation, Pflichtdokumenten und KI-Kennzeichnung einer Person zuordnen.
 - [Protokollvorlage](docs/protokolle/VORLAGE.md) kopieren und echte Beschlüsse festhalten.
-- Aufgabenzuständigkeiten und Status in Issues aktualisieren.
+- Zuständigkeiten im Issue und Arbeitsstatus im Kanban-Board aktualisieren.
 
 **Fertig für heute**, wenn jede Person sagen kann: „Bis zum nächsten Treffen liefere ich X. Y prüft es. Erledigt ist es, wenn Z erfüllt ist.“

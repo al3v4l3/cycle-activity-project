@@ -13,6 +13,10 @@
 
 Priorität 10 bedeutet „für den ausgewählten Kern wichtig“, nicht „alles passt automatisch in die erste Woche“. US-06 kann für eine PWA-Demo höher priorisiert werden. Vor Planung Aufwand und Kapazität abgleichen.
 
+## Backlog und Kanban
+
+Die obige Reihenfolge ist der vorgeschlagene Produktteil des Backlogs. Notwendige Projekt- und Qualitätsaufgaben stehen ergänzend in den [verknüpften Issues im Teamplan](05-team-und-plan.md). Für M1 werden Stories und Tasks gemeinsam priorisiert und geschätzt. Das Kanban-Board zeigt den aktuellen Arbeitsstatus; Anforderungen und Akzeptanzkriterien bleiben hier versioniert.
+
 ## US-01 · Tagesbefinden erfassen
 
 **Als trainierende Nutzerin möchte ich mein Tagesbefinden kurz festhalten, damit ich mein Training später in diesem Kontext betrachten kann.**

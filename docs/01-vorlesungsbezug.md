@@ -2,6 +2,8 @@
 
 Auswertung vom 11.11.2026. Quellen sind die lokal bereitgestellten Lehrunterlagen. Dateinamen, Foliennummern und Zellbereiche dienen zum Nachschlagen in euren eigenen Moodle-Kopien. Die Originale werden nicht ins öffentliche Repository übernommen. Die Übersicht fasst Inhalte in eigenen Worten zusammen.
 
+**Ergänzung:** Die inzwischen bereitgestellte Team-Mitschrift konkretisiert M1; siehe [Meilenstein Vorstellung](09-meilenstein-vorstellung.md). Die folgenden Fundstellen erklären die Methoden.
+
 **Lehrinhalt ist keine bestätigte Abgabevorschrift.** Ein gesondertes Aufgabenblatt oder eine Bewertungsmatrix wurde in den bereitgestellten Dateien nicht identifiziert. Insbesondere können wir daraus weder zwei umfangreiche Hefte noch eine bestimmte Anzahl von Diagrammen als verpflichtend erklären.
 
 ## Die entscheidenden Fundstellen

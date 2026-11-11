@@ -50,7 +50,7 @@ Fehlende Angaben und der Wert null sind verschieden. Datums- und Skalenregeln we
 | Übungsdaten | Eigene kleine Auswahl oder externer Katalog | Benötigt US-03 überhaupt einen Katalog? Lizenz und Datenqualität prüfen |
 | Health-Daten | Manuelle Eingaben zuerst, native Anbindung später | PWA-Kern muss ohne HealthKit/Flo funktionieren |
 
-Empfehlung für die ersten drei Wochen: synthetische Daten im Prototyp. Falls das Team danach eine lokale Speicherung auswählt, muss es deren Grenzen erläutern: Löschen der Browserdaten kann Daten entfernen, Gerätesynchronisation entsteht dadurch nicht. Ein Backend benötigt ein eigenes Zugriffs- und Datenkonzept. Die Auswahl wird als Entscheidung protokolliert.
+Für Visualisierung und optionale Prototypen vor M1 verwenden wir synthetische Daten. Die erste Implementierungsiteration folgt laut Mitschrift nach der Vorstellung gegen Semesterende. Falls das Team danach eine lokale Speicherung auswählt, muss es deren Grenzen erläutern: Löschen der Browserdaten kann Daten entfernen, Gerätesynchronisation entsteht dadurch nicht. Ein Backend benötigt ein eigenes Zugriffs- und Datenkonzept. Die Auswahl wird als Entscheidung protokolliert.
 
 Oberfläche, fachliche Regeln und Speicherung sollen getrennt gedacht werden; ob MVC oder eine andere Struktur geeignet ist, entscheiden wir anhand des gewählten Frameworks. Es ist noch keine MVC-Implementierung vorhanden.
 

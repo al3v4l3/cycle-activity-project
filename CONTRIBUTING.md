@@ -14,14 +14,15 @@ Das ist unsere Arbeitsvereinbarung. Eine technische Branch-Schutzregel wurde nic
 
 ## Aufgabenstatus
 
-Im Issue steht oben genau einer dieser Zustände: **Offen**, **In Arbeit**, **Zur Prüfung**, **Blockiert** oder **Erledigt**. Offene Issues sind der gemeinsame Aufgabenbestand. „Blockiert“ enthält den konkreten Grund und den nächsten Klärungsschritt. Ein Issue erst schließen, wenn seine Fertig-Kriterien erfüllt und das Ergebnis geprüft ist.
+Der **Status im Kanban-Board** ist maßgeblich. Im Issue stehen Aufgabeninhalt, Verantwortung, Aufwand, Abhängigkeiten und Ergebnislink. Neue Aufgaben zunächst in den Vorrat aufnehmen, nur abgestimmte Aufgaben in die nächste Bearbeitung ziehen. Hindernisse mit Grund im Issue dokumentieren. Ein Issue erst schließen, wenn seine Fertig-Kriterien erfüllt und das Ergebnis geprüft ist; anschließend Boardstatus auf erledigt setzen.
 
-Ein separates GitHub-Projects-Board ist für den Start optional und wurde nicht vorausgesetzt. Wenn ihr später eines anlegt, nutzt diese Zustände als Spalten und pflegt den Status anschließend ausschließlich dort. Das verhindert widersprüchliche Doppelpflege.
+Das Kanban-Board gehört laut Mitschrift zu M1. Den aktuellen Zugang findet ihr im Haupt-README. Die bisherigen Statuszeilen in den ersten Issues werden durch den Boardstatus ersetzt.
 
 ## Was gehört wohin?
 
 - **User Stories:** fachlicher Inhalt und Akzeptanzkriterien in `docs/04-user-stories.md`. Issue referenziert die Story-ID.
-- **Aufgaben:** Zuständigkeit, Aufwand, Zieltermin, Hindernisse und Ergebnislink im Issue.
+- **Aufgaben:** Zuständigkeit, Aufwand, Zieltermin, Hindernisse und Ergebnislink im Issue; Status im Board.
+- **Code und Tests:** später in `src/` und `tests/`, gegebenenfalls angepasst an das gewählte Framework. Änderungen ebenfalls über Branch und Pull Request.
 - **Änderungswünsche und Recherchefragen:** eigene Issue-Vorlage; nach Entscheidung betroffene Anforderungen aktualisieren.
 - **Entscheidungen:** `docs/entscheidungen.md`, mit Begründung und Bezug zum Issue.
 - **Besprechungen:** eine Datei je tatsächlichem Treffen in `docs/protokolle/`.

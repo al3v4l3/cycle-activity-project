@@ -16,7 +16,8 @@ body:
       value: |
         Story-ID und Link zum Backlog: offen
         Anforderung: offen
-        Status: Entwurf
+        Reifegrad: Entwurf
+        Arbeitsstatus: im Kanban-Board pflegen
         Priorität (10 zuerst, 20 danach, 50 später): offen
         Aufwand mit Einheit und Annahmen: ungeschätzt
         Verantwortlich / Prüfung: offen

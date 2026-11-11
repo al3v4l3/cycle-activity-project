@@ -2,6 +2,8 @@
 
 **Status: vorbereitete Leitfäden und Testfälle. Noch keine Interviews oder Tests durchgeführt.** Bezüge zur Vorlesung stehen in [01-vorlesungsbezug.md](01-vorlesungsbezug.md).
 
+Gespräche und Prototypprüfungen sind ergänzende Methoden. Für M1 steht die [Vollständigkeits- und Konsistenzprüfung](09-meilenstein-vorstellung.md) im Vordergrund; T-08 bleibt optional.
+
 ## Bedarfsgespräche für T-03
 
 Zwei bis drei Personen aus der gewählten Zielgruppe, etwa 15 Minuten je Gespräch. Nach Möglichkeit nicht ausschließlich das eigene Team befragen. Erklärt den studentischen Zweck, die freiwillige Teilnahme und dass ihr keine persönlichen Gesundheitsangaben benötigt. Dokumentiert im öffentlichen Repository ausschließlich zusammengefasste Produktbedürfnisse ohne identifizierende Details. Rohnotizen und Kontaktdaten bleiben außerhalb des öffentlichen Repositories.
