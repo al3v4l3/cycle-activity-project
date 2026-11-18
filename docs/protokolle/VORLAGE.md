@@ -1,29 +1,21 @@
-# Unser Treffen
+# Besprechungsprotokoll
 
-Vorlage erst nach einem tatsächlichen Treffen ausfüllen und als `JJJJ-MM-TT-thema.md` speichern.
+Datum:
 
-**Datum / Dauer / dabei:**
+Teilnehmende:
 
-**Was wollten wir klären?**
+## Ergebnisse
 
-## Das haben wir entschieden
-
-| Frage | Entscheidung oder noch offen | Betroffene Datei / ID |
+| Thema | Ergebnis / Entscheidung | Bezug |
 | --- | --- | --- |
-| Zielgruppe und Projektziel | ausfüllen | Zieltabelle |
-| Erfolgskriterien | bestätigt / geändert / offen | Z-01 bis Z-04 |
-| Kernumfang und Regeln | ausfüllen | F-/Q-IDs, Stories |
+| | | |
 
-## Das machen wir als Nächstes
+## Aufgaben
 
-| Aufgabe / Issue | Konkretes Ergebnis | Wer? | Wer prüft? | Bis wann? |
+| Issue | Ergebnis | Zuständig | Prüfung | Termin |
 | --- | --- | --- | --- | --- |
-| ausfüllen | ausfüllen | ausfüllen | ausfüllen | ausfüllen |
+| | | | | |
 
-**Was haben wir uns gegenseitig gezeigt? Was ändern wir dadurch?**
+## Offene Punkte
 
-**Was lief gut? Eine Verbesserung für das nächste Treffen:**
-
-**Offene Frage an den Dozenten und wer sie klärt:**
-
-**Nächster Termin:**
+## Nächster Termin

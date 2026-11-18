@@ -1,36 +1,29 @@
-# So arbeiten wir zusammen
+# Zusammenarbeit
 
-Für die Dokumente brauchen wir zunächst nur GitHub. Eine lokale Entwicklungsumgebung richten wir später passend zu unserer Technik ein.
+## Änderungen
 
-## Eine Aufgabe bearbeiten
+1. Aufgabe im Issue beschreiben und eine zuständige Person festlegen.
+2. Änderung auf einer eigenen Branch vorbereiten.
+3. Pull Request öffnen und kurz erklären, was geändert und geprüft wurde.
+4. Änderung gegenlesen lassen und anschließend zusammenführen.
+5. Ergebnis im Issue verlinken und den Boardstatus aktualisieren.
 
-1. Eine Aufgabe auf dem [Board](https://github.com/users/al3v4l3/projects/1/views/1) auswählen und gemeinsam klären.
-2. Eine verantwortliche Person, eine zweite Person zum Prüfen und einen Termin festhalten.
-3. Das zuständige Dokument bearbeiten. Für Änderungen eine eigene Branch und einen Pull Request anlegen, z. B. `codex/projektziel`.
-4. Im Pull Request kurz erklären: Was ist anders? Warum? Wie wurde es geprüft?
-5. Die zweite Person liest gegen. Danach Änderungen zusammenführen, Ergebnis im Issue verlinken und den Boardstatus anpassen.
+## Ablage
 
-Der Eigentümer lädt die anderen drei mit ihren bestätigten GitHub-Namen ein. Zugriff auf **Repo und Projektboard** getrennt prüfen. Namen und konkrete Einladungen sind hier noch offen. Der beschriebene Prüfablauf ist unsere Arbeitsvereinbarung und wird nicht durch eine eingerichtete Branch-Schutzregel erzwungen.
+Anforderungen stehen im Lastenheft, Stories und Kriterien im Product Backlog. Im Issue werden Aufwand, Zuständigkeit und Ergebnis festgehalten. Den aktuellen Arbeitsstatus zeigt das Kanban-Board.
 
-## Was gehört wohin?
+Ändert sich eine Anforderung, werden die betroffenen Stories, Entwürfe und Tests mitgeprüft.
 
-| Inhalt | Ort |
-| --- | --- |
-| Ziel und Erfolgskriterien | `docs/00-projektziel.md` |
-| Anforderungen | `docs/02-lastenheft.md` |
-| Lösungsentwurf | `docs/03-pflichtenheft.md` |
-| Stories und Kriterien | `docs/04-user-stories.md` |
-| Zuständigkeit, Aufwand, Hindernis, Ergebnislink | GitHub Issue |
-| Arbeitsstatus | Kanban-Board |
-| Beschlüsse und echte Treffen | `docs/entscheidungen.md`, `docs/protokolle/` |
-| Bilder, später Code und Tests | `design/`, `src/`, `tests/` |
+## Status
 
-Eine Regel möglichst an einer Stelle festlegen und anderswo darauf verweisen. Ändert sich eine Anforderung, prüfen wir die betroffenen Stories, Entwürfe und Tests mit.
+- **Backlog:** bekannte, noch nicht eingeplante Arbeit
+- **Ready:** Ergebnis, Kriterien, Aufwand und Zuständigkeit geklärt
+- **In progress:** in Bearbeitung
+- **In review:** Ergebnis wird geprüft
+- **Done:** Kriterien erfüllt, Ergebnis geprüft und verlinkt
 
-**Ready:** Wir verstehen Ergebnis und Kriterien und haben Verantwortung sowie Aufwand geklärt. **Done:** Kriterien erfüllt, Ergebnis verlinkt und von einer zweiten Person geprüft. Bei Software gehören passende Tests dazu. Ein fertiges Planungsdokument ist noch keine fertige App.
+Bei Software gehören passende Tests zur Fertigstellung. Ein Dokumentationsstand und eine umgesetzte Funktion werden getrennt erfasst.
 
-Ein Entwurfs-PR kann mit `Refs #5` auf eine Aufgabe verweisen. `Closes #5` nur verwenden, wenn die gesamte Aufgabe wirklich fertig ist, weil sie dadurch automatisch geschlossen werden kann.
+## Inhalte
 
-## Was bleibt privat?
-
-Keine originalen Moodle-Dateien, echten Gesundheitsdaten, Rohinterviews oder Zugangsdaten veröffentlichen. Die Dateiliste vor dem Teilen ansehen; `.gitignore` verhindert keine manuellen Uploads auf GitHub. Fremde Quellen und Lizenzen sowie KI-Unterstützung nachvollziehbar nennen. Genaue Hochschulregeln noch bestätigen.
+Zugangsdaten, personenbezogene Daten und nicht zur Veröffentlichung bestimmte Unterlagen gehören nicht ins Repository. Beispiele und Tests verwenden künstliche Daten. Bei übernommenen Inhalten werden Quelle und Lizenz dokumentiert.

@@ -1,10 +1,10 @@
 # Anforderungen · Unser kurzes Lastenheft
 
-**Entwurf vom 18.11.2026. Im Gruppentreffen prüfen.** Hier steht, was die App leisten soll. Ziel, Motivation und Erfolgskriterien stehen in [Unser Ziel](00-projektziel.md).
+**Status: Entwurf.** Dieses Dokument beschreibt die geplanten Funktionen und Qualitätsregeln. Ziel, Motivation und Erfolgskriterien stehen in [Unser Ziel](00-projektziel.md).
 
 ## Was gehört zuerst dazu?
 
-Unser Kern ist **Befinden festhalten → Training eintragen → gemeinsamen Verlauf ansehen**. Freiwillige Zyklusangaben und Löschung gehören dazu. Ernährung, automatische Trainingspläne, KI-Coach, Wearables, Flo-Import und soziale Funktionen bleiben zunächst draußen.
+Unser Kern ist **Befinden festhalten → Training eintragen → gemeinsamen Verlauf ansehen**. Freiwillige Zyklusangaben und Löschung gehören dazu. Ernährung, automatische Trainingspläne, Wearables, Flo-Import und soziale Funktionen bleiben zunächst draußen.
 
 Prioritäten: **10 = im Kern zuerst nötig; 20 = danach sinnvoll; 50 = später.** Die Reihenfolge der Stories steht im [Backlog](04-user-stories.md). Eine hohe Priorität heißt nicht, dass alles gleichzeitig entwickelt wird.
 
@@ -31,9 +31,9 @@ Prioritäten: **10 = im Kern zuerst nötig; 20 = danach sinnvoll; 50 = später.*
 
 Alle Qualitätsregeln gehören zum Kern. Die späteren [Prüfungen](07-erhebung-und-qualitaet.md) zeigen, wie wir sie kontrollieren.
 
-## Eingaberegeln als Vorschlag für morgen
+## Vorgesehene Eingaberegeln
 
-Diese Regeln machen den Entwurf konkreter. Sie sind **noch keine gemeinsame Entscheidung**. Wenn wir sie ändern, passen wir Stories, Entwurf und Tests zusammen an.
+Die Eingaberegeln gehören zum aktuellen Entwurf. Änderungen werden in Stories, Entwurf und Tests übernommen.
 
 - **Tages-Check-in:** Datum und Energie sind nötig. 1 bedeutet sehr wenig, 5 sehr viel Energie. Pro Tag gibt es einen Check-in; ein vorhandener wird zum Ändern geöffnet.
 - **Training:** Datum, Sportart und Dauer sind nötig. Zunächst ganze Minuten größer als null. Ein absolviertes Training liegt heute oder in der Vergangenheit. Mehrere Trainings pro Tag sind möglich.
@@ -43,4 +43,4 @@ Diese Regeln machen den Entwurf konkreter. Sie sind **noch keine gemeinsame Ents
 
 ## Was wir noch entscheiden
 
-Zielgruppe und Kernumfang bestätigen; Eingaberegeln prüfen; unterstützte Geräte, Speicher und Technik wählen. Ein Account ist bisher nicht erforderlich. Ob wir einen brauchen, hängt vom vereinbarten Bedarf ab. Zuständige Personen und Termine tragen wir im [Teamplan](05-team-und-plan.md) ein.
+Zielgruppe und Kernumfang bestätigen; Eingaberegeln prüfen; unterstützte Geräte, Speicher und Technik wählen. Ein Account ist bisher nicht erforderlich. Ob wir einen brauchen, hängt vom vereinbarten Bedarf ab. Zuständigkeiten und Termine werden in den zugehörigen Issues erfasst.

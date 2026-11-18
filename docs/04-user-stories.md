@@ -1,6 +1,6 @@
 # User Stories und Product Backlog
 
-**Entwurf vom 18.11.2026. Noch nicht umgesetzt und noch nicht im Team geschätzt.** Die Stories stammen aus unserer Idee. Zielgruppe, Regeln und Prioritäten werden gemeinsam geprüft.
+**Status: Entwurf.** Die Stories beschreiben den geplanten Umfang. Aufwand und Abhängigkeiten werden vor der Umsetzung geschätzt.
 
 Eine **User Story** beschreibt, was eine Nutzerin möchte und wozu. Die **Kriterien** darunter sagen, wann die Funktion erfüllt ist. **Tasks** sind die einzelnen Arbeitsschritte dafür. Das **Backlog** ist unsere geordnete Liste.
 
@@ -60,9 +60,9 @@ Fertig ist die Funktion, wenn:
 - mehrere Trainings an einem Tag möglich sind;
 - der Ablauf ohne Zyklusangabe funktioniert und Abbrechen keinen Eintrag erzeugt.
 
-Prüfung: **AT-03, AT-08, BT-01**. Ganze Minuten und keine Zukunftsdaten sind Vorschläge für morgen.
+Prüfung: **AT-03, AT-08, BT-01**. Die vorgesehenen Regeln stehen im Lastenheft.
 
-**Beispiel für spätere Tasks:** Formular skizzieren → Eingaberegeln umsetzen → Speichern und Laden anbinden → Erfolgs- und Fehlerfälle prüfen. Jede Task bekommt eine Person, einen Aufwand und ein klares Ergebnis. Diese Umsetzung ist noch nicht beauftragt.
+**Beispiel für spätere Tasks:** Formular skizzieren → Eingaberegeln umsetzen → Speichern und Laden anbinden → Erfolgs- und Fehlerfälle prüfen. Jede Task bekommt eine Person, einen Aufwand und ein klares Ergebnis.
 
 ## US-04 · Verlauf ansehen
 
@@ -105,7 +105,7 @@ Prüfung: **AT-06**. Geräte und Browser noch auswählen; nicht dieselbe Install
 
 ## Später vielleicht
 
-Ernährung, Barcode-Suche, Übungskatalog, Wearables, Health-Anbindung, Flo-Import und KI-Coach. Erst ein konkretes Problem und den Aufwand prüfen, dann entscheiden.
+Ernährung, Barcode-Suche, Übungskatalog, Wearables, Health-Anbindung, Flo-Import. Erst ein konkretes Problem und den Aufwand prüfen, dann entscheiden.
 
 ## Neue Story ergänzen
 

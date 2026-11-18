@@ -1,6 +1,6 @@
 # Lösungsentwurf · Unser kurzes Pflichtenheft
 
-**Vorschlag vom 18.11.2026. Noch keine beschlossene Technik.** Die [Anforderungen](02-lastenheft.md) sagen, was wir brauchen. Hier zeigen wir, wie die Lösung aussehen könnte.
+**Status: Entwurf.** Der Lösungsentwurf beschreibt Abläufe, Daten und technische Fragen zu den [Anforderungen](02-lastenheft.md).
 
 ## Unser Ablauf als Bild
 
@@ -13,7 +13,7 @@ flowchart LR
     E --> C
 ```
 
-Das ist eine einfache Ablaufskizze, kein UML-Use-Case-Diagramm. Eine eigene, im Team geprüfte Skizze oder Bildschirmzeichnung ergänzen wir in `design/`.
+Weitere Ansichten und Wireframes werden in `design/` abgelegt.
 
 ## Drei einfache Ansichten
 
@@ -23,7 +23,7 @@ Das ist eine einfache Ablaufskizze, kein UML-Use-Case-Diagramm. Eine eigene, im 
 
 ## Beispiel UC-01 · Tagesbefinden festhalten
 
-Ein **Use Case** beschreibt einen konkreten Nutzungsfall. Bezug: F-01 / US-01.
+Bezug: F-01 / US-01.
 
 1. Die Nutzerin öffnet „Heute“ und wählt einen Tag.
 2. Sie wählt ihre Energie. Zyklusangaben darf sie weglassen.
@@ -44,8 +44,8 @@ Die Eingaberegeln stehen gesammelt im Lastenheft. „Keine Angabe“ und der Wer
 
 ## Was wir technisch noch klären
 
-Sprache und Oberfläche wählen wir nach unseren Kenntnissen und dem Aufwand. Bei der Speicherung vergleichen wir Browser-Speicher und ein Backend. Brauchen wir Gerätewechsel? Was passiert bei gelöschten Browserdaten? Wie funktionieren Zugriff und Löschung? Die Entscheidung halten wir in [Technik](11-technologie-und-ki.md) und [Entscheidungen](entscheidungen.md) fest.
+Sprache und Oberfläche wählen wir nach unseren Kenntnissen und dem Aufwand. Bei der Speicherung vergleichen wir Browser-Speicher und ein Backend. Brauchen wir Gerätewechsel? Was passiert bei gelöschten Browserdaten? Wie funktionieren Zugriff und Löschung? Die Entscheidung halten wir in [Technik](11-technik.md) und [Entscheidungen](entscheidungen.md) fest.
 
 Oberfläche, Eingaberegeln und Speicherung sollen getrennt bleiben. MVC und weitere Muster können dabei helfen, falls sie zur gewählten Technik passen. Weitere UML-Diagramme erstellen wir bei einer konkreten offenen Frage. Eine externe API braucht der erste manuelle Ablauf nicht.
 
-Anforderung → Story → Prüfung ist im [Backlog](04-user-stories.md) und im [Testplan](07-erhebung-und-qualitaet.md) verknüpft. Programmieren beginnen wir laut bisheriger Mitschrift nach der Vorstellung.
+Anforderung → Story → Prüfung ist im [Backlog](04-user-stories.md) und im [Testplan](07-erhebung-und-qualitaet.md) verknüpft.

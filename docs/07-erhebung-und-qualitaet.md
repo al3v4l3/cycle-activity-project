@@ -1,6 +1,6 @@
 # Wie wir Bedarf und Ergebnis prüfen
 
-**Plan vom 18.11.2026. Noch keine Gespräche oder Produkttests durchgeführt.** Unsere [Erfolgskriterien](00-projektziel.md) müssen im Team abgestimmt werden.
+**Status: Testplan.** Die folgenden Fälle prüfen die [Erfolgskriterien](00-projektziel.md). Ergebnisse werden nach Durchführung dokumentiert.
 
 ## Jetzt: Unterlagen gemeinsam prüfen
 
@@ -10,7 +10,7 @@ Die konkrete [Prüfliste für die Vorstellung](09-meilenstein-vorstellung.md) be
 
 ## Bedarfsgespräche, wenn wir Annahmen prüfen wollen
 
-Zwei bis drei kurze Gespräche sind ein Vorschlag, keine bestätigte Pflichtanzahl. Wir fragen nach dem bisherigen Alltag, bevor wir unsere Lösung zeigen:
+Zur Bedarfsklärung sind zunächst kurze Gespräche mit zwei bis drei Personen vorgesehen. Wir fragen nach dem bisherigen Alltag, bevor wir unsere Lösung zeigen:
 
 1. Wie hast du dein letztes Training festgehalten?
 2. Was wolltest du später dazu wissen? Was war umständlich?
@@ -21,7 +21,7 @@ Danach notieren wir: **Beobachtung → mögliche Anforderung → offene Frage.**
 
 ## Später: App-Funktionen testen
 
-Alle Tests stehen zunächst auf **nicht durchgeführt**. Die Eingaberegeln im [Lastenheft](02-lastenheft.md) sind noch Vorschläge. Vor der Umsetzung bestätigen oder ändern wir sie und passen die Tests entsprechend an.
+Alle Tests stehen zunächst auf **nicht durchgeführt**. Die Tests beziehen sich auf die Eingaberegeln im [Lastenheft](02-lastenheft.md). Bei Änderungen werden die Prüffälle angepasst.
 
 | Test | Bezug | Eingabe / Handlung | Erwartetes Ergebnis |
 | --- | --- | --- | --- |
@@ -38,7 +38,7 @@ AT-07 ist eine einfache Einstiegsprüfung, kein vollständiger Barrierefreiheits
 
 ## BT-01 · Ist ein Trainingseintrag einfach genug?
 
-**Vorgeschlagener Maßstab aus Z-04:** Mindestens zwei von drei Personen schaffen die Aufgabe ohne Hilfestellung in höchstens zwei Minuten. Vor dem Test im Team bestätigen. Keine bereits gemessene Zeit und keine Dozentenvorgabe.
+**Geplanter Zielwert aus Z-04:** Mindestens zwei von drei Personen schaffen die Aufgabe ohne Hilfestellung in höchstens zwei Minuten. Der Zielwert wird vor Durchführung festgelegt; ein Messergebnis liegt noch nicht vor.
 
 - Drei Personen aus der vorgesehenen Zielgruppe; frisches Formular auf dem vereinbarten Smartphone-Browser; ausschließlich künstliche Daten.
 - Gleiche Aufgabe: „Du hast gestern 30 Minuten Krafttraining gemacht. Halte das fest, ohne Zyklusangaben zu machen, und finde den Eintrag wieder.“
