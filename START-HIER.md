@@ -1,5 +1,7 @@
 # Eure erste gemeinsame Stunde
 
+**Noch keine Vorlesung besucht?** Beginne mit der [Projektwerkstatt](lernen/README.md). Der schnelle Lernpfad durch Kapitel 01, 03, 04, 06 und 11 erklärt die Begriffe und das Vorgehen für dieses Treffen. Für den vollständigen Einstieg gibt es zwölf Kapitel mit Übungen.
+
 **Ziel nach 60 Minuten:** Ihr könnt in einem Satz erklären, für wen ihr welches Problem löst. Ihr habt den ersten Umfang eingegrenzt, jede Person hat eine Aufgabe und das nächste Treffen steht fest. Ihr müsst heute noch keine App programmieren.
 
 Lest zuerst die [M1-Checkliste aus der Mitschrift](docs/09-meilenstein-vorstellung.md). Dieses Repository begleitet anschließend auch die Entwicklung und Tests.

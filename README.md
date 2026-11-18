@@ -10,6 +10,8 @@ Arbeitstitel: **CSAH**. „Cycle Sync Activity Hub“ und „Cycle, Strength, Aw
 
 ## Hier beginnt ihr
 
+**Neu im Modul oder in der Gruppe?** Die [interaktive Projektwerkstatt](lernen/README.md) erklärt die relevanten Grundlagen von Anfang an: mit zwölf Kapiteln, Beispielen aus unserem Projekt, Übungen, Glossar und Selbstcheck. Die HTML-Datei lässt sich herunterladen und direkt im Browser öffnen.
+
 Öffnet gemeinsam **[START-HIER.md](START-HIER.md)**. Dort steht der Ablauf für eure erste Arbeitsstunde. Alle Produktinhalte sind vorbereitete **Entwürfe**, die ihr im Team prüft. Aussagen über Bedürfnisse sind bis zu einer Erhebung Hypothesen.
 
 | Ich möchte … | Hier arbeiten wir |
@@ -35,6 +37,7 @@ Arbeitstitel: **CSAH**. „Cycle Sync Activity Hub“ und „Cycle, Strength, Aw
 | `tests/` | Ausführbare Tests, passend zur später gewählten Technologie |
 | `design/` | Projektbild, Abläufe, Wireframes und Entwürfe |
 | `docs/` | Anforderungen, Entscheidungen, Zusammenarbeit und Projektnachweise |
+| `lernen/` | Eigenständiger interaktiver Einstieg ins Fach und unsere Projektarbeit |
 | `.github/` | Vorlagen und später bei Bedarf automatisierte Prüfungen |
 
 `src/` und `tests/` enthalten zunächst nur Orientierung. Sprache, Framework und Startbefehle werden nach der gemeinsamen Technologieentscheidung ergänzt. Die Projektstruktur wird dabei an die gewählte Technologie angepasst.
