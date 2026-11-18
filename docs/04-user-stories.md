@@ -1,102 +1,112 @@
-# Product Backlog · User Stories
+# User Stories und Product Backlog
 
-**Stand: Entwurf 11.11.2026.** Die Stories wurden aus der Projektidee abgeleitet, nicht aus abgeschlossenen Interviews. Prioritäten sind Vorschläge. Alle Stories sind ungeschätzt und nicht umgesetzt; das Team schätzt nach Klärung der Akzeptanzkriterien. Recherche- und Dokumentationsaufgaben im Arbeitsplan sind davon getrennt.
+**Entwurf vom 18.11.2026. Noch nicht umgesetzt und noch nicht im Team geschätzt.** Die Stories stammen aus unserer Idee. Zielgruppe, Regeln und Prioritäten werden gemeinsam geprüft.
 
-| ID | Thema | Anforderung | Prio | Aufwand | Status |
+Eine **User Story** beschreibt, was eine Nutzerin möchte und wozu. Die **Kriterien** darunter sagen, wann die Funktion erfüllt ist. **Tasks** sind die einzelnen Arbeitsschritte dafür. Das **Backlog** ist unsere geordnete Liste.
+
+## Vorgeschlagene Reihenfolge für die spätere Umsetzung
+
+| Reihenfolge | Story | Bezug | Prio | Aufwand | Stand |
 | --- | --- | --- | --- | --- | --- |
-| US-01 | Tagesbefinden erfassen | F-01 | 10 | offen | Entwurf |
-| US-02 | Zyklusangaben freiwillig ergänzen | F-02, Q-01 | 10 | offen | Entwurf |
-| US-03 | Training dokumentieren | F-03 | 10 | offen | Entwurf |
-| US-04 | Gemeinsamen Verlauf ansehen | F-04, Q-05 | 10 | offen | Entwurf |
-| US-05 | Eigene Einträge löschen | F-05 | 10 | offen | Entwurf |
-| US-06 | Zum Startbildschirm hinzufügen | F-06 | 20 | offen | Entwurf |
+| 1 | US-03 · Training eintragen | F-03 | 10 | im Team schätzen | Entwurf |
+| 2 | US-01 · Tagesbefinden festhalten | F-01 | 10 | im Team schätzen | Entwurf |
+| 3 | US-04 · Verlauf ansehen | F-04 | 10 | im Team schätzen | Entwurf |
+| 4 | US-02 · Zyklusangabe freiwillig ergänzen | F-02, Q-01 | 10 | im Team schätzen | Entwurf |
+| 5 | US-05 · Einträge löschen | F-05 | 10 | im Team schätzen | Entwurf |
+| 6 | US-06 · Vom Startbildschirm öffnen | F-06 | 20 | im Team schätzen | Entwurf |
 
-Priorität 10 bedeutet „für den ausgewählten Kern wichtig“, nicht „alles passt automatisch in die erste Woche“. US-06 kann für eine PWA-Demo höher priorisiert werden. Vor Planung Aufwand und Kapazität abgleichen.
+Wir starten mit einem kleinen durchgängigen Ablauf. US-03 braucht deshalb schon eine einfache Anzeige des gespeicherten Trainings. US-04 ergänzt später die gemeinsame Sicht mit Befinden und optionalen Zyklusangaben. US-05 wird für gespeicherte Daten mit eingeplant und nicht aus dem Kern gestrichen. Q-01 bis Q-05 gelten bei allen betroffenen Stories.
 
-## Backlog und Kanban
+Die Reihenfolge ist kein Wochenplan. Wir wählen später anhand unserer Zeit, Abhängigkeiten und Schätzung aus. Die jetzigen Planungsaufgaben T-01 bis T-13 stehen auf dem [Board](https://github.com/users/al3v4l3/projects/1/views/1).
 
-Die obige Reihenfolge ist der vorgeschlagene Produktteil des Backlogs. Notwendige Projekt- und Qualitätsaufgaben stehen ergänzend in den [verknüpften Issues im Teamplan](05-team-und-plan.md). Für M1 werden Stories und Tasks gemeinsam priorisiert und geschätzt. Das Kanban-Board zeigt den aktuellen Arbeitsstatus; Anforderungen und Akzeptanzkriterien bleiben hier versioniert.
+## US-01 · Tagesbefinden festhalten
 
-## US-01 · Tagesbefinden erfassen
+**Als Nutzerin möchte ich meine Energie für einen Tag festhalten, damit ich sie später zusammen mit meinem Training ansehen kann.**
 
-**Als trainierende Nutzerin möchte ich mein Tagesbefinden kurz festhalten, damit ich mein Training später in diesem Kontext betrachten kann.**
+Fertig ist die Funktion, wenn:
 
-Akzeptanzkriterien für die spätere App:
+- ich Datum und Energie von 1 bis 5 eingeben kann und die Skala erklärt wird;
+- ich ohne Zyklusangabe speichern kann;
+- ich den Check-in nach erneutem Öffnen am richtigen Tag wiederfinde und ändern kann;
+- pro Tag nur ein Check-in besteht;
+- bei fehlenden Pflichtangaben ein verständlicher Hinweis erscheint und Abbrechen nichts neu anlegt.
 
-- Für einen gewählten Tag kann ich Energie von 1 bis 5 auswählen; die Endpunkte sind erklärt.
-- Ohne Zyklusangaben kann ich den Check-in abschließen.
-- Nach Speichern und erneutem Öffnen sehe ich den Eintrag für den richtigen Tag.
-- Fehlende Pflichtangaben erzeugen einen verständlichen Hinweis, ohne meine übrigen Eingaben zu verwerfen.
-- Breche ich ab, wird kein Eintrag angelegt.
+Prüfung: **AT-01, AT-08**. Die Eintrags- und Skalenregeln sind Vorschläge aus dem Lastenheft.
 
-Offen: Ist diese Skala für die Zielgruppe sinnvoll? Welche weiteren Angaben sind wirklich nötig? Vorschlag: ein bearbeitbarer Check-in je Tag, im Team bestätigen.
+## US-02 · Zyklusangabe freiwillig ergänzen
 
-**Nächste Aufgaben zur Klärung:** Eingaben im Interview prüfen, Formular skizzieren, Erfolgs- und Fehlerfall durchgehen. **Spätere Umsetzungstasks, noch nicht beauftragt:** Eingaberegeln, Oberfläche und Speicherung umsetzen; AT-01 und AT-08 durchführen. Jede Task erhält eigene Aufwandsschätzung und Verantwortung. Nutzenprüfung: Testpersonen können den Eintrag selbstständig erstellen und wiederfinden.
+**Als Nutzerin möchte ich selbst entscheiden, ob ich eine Zyklusangabe ergänze, damit ich die App auch ohne diese Information nutzen kann.**
 
-## US-02 · Zyklusangaben freiwillig ergänzen
+Fertig ist die Funktion, wenn:
 
-**Als Nutzerin möchte ich Zyklusangaben freiwillig ergänzen oder weglassen können, damit ich selbst bestimme, welche Informationen ich für meinen Verlauf nutze.**
+- ich für ein Datum freiwillig eine beobachtete Blutung angeben kann;
+- Überspringen Training und Check-in nicht verhindert;
+- fehlende Angaben als „keine Angabe“ erscheinen;
+- eine gespeicherte Angabe am richtigen Tag sichtbar und löschbar ist.
 
-- Ich kann für einen Tag eine beobachtete Blutung dokumentieren; weitere Felder werden erst nach Bedarfsklärung ergänzt.
-- Überspringen verhindert weder Trainingseintrag noch Tages-Check-in.
-- Ein fehlender Eintrag erscheint als „keine Angabe“, nicht als „keine Blutung“ oder bestimmte Zyklusphase.
-- Gespeicherte Angaben sind für den richtigen Tag sichtbar und gemäß US-05 löschbar.
+Prüfung: **AT-02, AT-04, AT-05**. Keine automatische Phasenbestimmung im ersten Umfang.
 
-Offen: Welche Bezeichnungen sind verständlich? Ist diese Art der Erfassung überhaupt gewünscht? Keine automatische Phasenvorhersage im ersten Umfang. Nutzenprüfung: Testperson findet die freiwillige Option und versteht das Überspringen.
+## US-03 · Training eintragen
 
-## US-03 · Training dokumentieren
+**Als Freizeitsportlerin möchte ich ein absolviertes Training eintragen, damit ich meine Aktivität später nachvollziehen kann.**
 
-**Als Freizeitsportlerin möchte ich eine absolvierte Trainingseinheit dokumentieren, damit ich meine Aktivität nachvollziehen kann.**
+Fertig ist die Funktion, wenn:
 
-- Ich kann Datum, Sportart und Dauer in Minuten erfassen.
-- Eine Dauer größer als null ist gültig; null, negative Werte oder nichtnumerische Eingaben führen zu einem verständlichen Fehlerhinweis.
-- Ein gespeicherter Eintrag erscheint mit den eingegebenen Werten; Abbruch erzeugt keinen Eintrag.
-- Ich kann das Training ohne Zyklusangaben erfassen.
+- ich Datum, Sportart und Dauer eingeben kann;
+- eine positive ganze Minutenzahl akzeptiert wird;
+- leere Pflichtfelder, 0, negative Werte, Text und halbe Minuten verständlich zurückgewiesen werden;
+- ein zukünftiges Datum zurückgewiesen wird;
+- ich gespeicherte Werte nach erneutem Öffnen am richtigen Tag sehe;
+- mehrere Trainings an einem Tag möglich sind;
+- der Ablauf ohne Zyklusangabe funktioniert und Abbrechen keinen Eintrag erzeugt.
 
-Offen: Ganze oder auch halbe Minuten? Datum in der Zukunft? Belastungsskala? Benötigt Krafttraining bereits Sätze und Gewichte? Das Team klärt diese Regeln vor der Implementierung. Nutzenprüfung: Ein typisches Training lässt sich ohne erklärende Hilfe abbilden.
+Prüfung: **AT-03, AT-08, BT-01**. Ganze Minuten und keine Zukunftsdaten sind Vorschläge für morgen.
 
-## US-04 · Training und Befinden gemeinsam ansehen
+**Beispiel für spätere Tasks:** Formular skizzieren → Eingaberegeln umsetzen → Speichern und Laden anbinden → Erfolgs- und Fehlerfälle prüfen. Jede Task bekommt eine Person, einen Aufwand und ein klares Ergebnis. Diese Umsetzung ist noch nicht beauftragt.
 
-**Als Nutzerin möchte ich Training und Befinden für denselben Zeitraum betrachten, damit ich meine eigenen Einträge vergleichen kann.**
+## US-04 · Verlauf ansehen
 
-- Für einen ausgewählten Zeitraum stehen Training und Tagesbefinden erkennbar beim jeweiligen Datum.
-- Optionale Zyklusangaben können im selben Zusammenhang angezeigt werden.
-- Tage ohne Eintrag sind eindeutig von eingetragenen Werten unterscheidbar.
-- Die Darstellung behauptet keine Ursache für Leistungsunterschiede und erzeugt keine unbestätigte Phasenzuordnung.
-- Ein leerer Verlauf erklärt, wie ich den ersten Eintrag anlege.
+**Als Nutzerin möchte ich Training und Befinden im selben Zeitraum sehen, damit ich meine eigenen Einträge vergleichen kann.**
 
-Offen: Liste oder Kalender? Woche als Standard? Nutzenprüfung: Testperson findet einen bestimmten Tag und kann erklären, welche Angaben vorhanden sind und welche fehlen.
+Fertig ist die Funktion, wenn:
+
+- ich einen Zeitraum auswählen und Einträge nach Datum sehen kann;
+- vorhandene Zyklusangaben beim passenden Tag stehen;
+- fehlende Angaben von eingetragenen Werten unterscheidbar sind;
+- ein leerer Verlauf erklärt, wie ich einen ersten Eintrag anlege;
+- die Darstellung keine Ursache, Leistungsprognose oder berechnete Phase behauptet.
+
+Prüfung: **AT-04**. Eine einfache Liste reicht für den ersten Entwurf.
 
 ## US-05 · Einträge löschen
 
-**Als Nutzerin möchte ich einzelne und alle eigenen Einträge löschen können, damit ich die Kontrolle über meine gespeicherten Angaben behalte.**
+**Als Nutzerin möchte ich einzelne oder alle eigenen Einträge löschen, damit ich die Kontrolle über meine gespeicherten Angaben behalte.**
 
-- Ich kann einen einzelnen Eintrag löschen; andere Einträge bleiben erhalten.
-- Vor dem Löschen aller Daten wird die Reichweite erklärt und eine Bestätigung verlangt.
-- Abbrechen der Bestätigung verändert keine Daten.
-- Nach bestätigter Löschung und erneutem Öffnen sind die betroffenen Einträge in der gewählten Speicherlösung nicht mehr verfügbar.
+Fertig ist die Funktion, wenn:
 
-Offen: Speicherung und Umgang mit eventuellen Backups zuerst entscheiden. Nutzenprüfung: Testperson versteht den Unterschied zwischen Einzel- und Gesamtlöschung. Die Prototypprüfung belegt nur Verständlichkeit; technische Löschung braucht später einen eigenen Nachweis.
+- eine Einzellöschung andere Einträge unverändert lässt;
+- vor einer Gesamtlöschung deren Umfang erklärt und eine Bestätigung verlangt wird;
+- Abbrechen der Bestätigung nichts verändert;
+- gelöschte Einträge auch nach erneutem Öffnen weg sind.
 
-## US-06 · App vom Startbildschirm öffnen
+Prüfung: **AT-05**. Was ein eventuelles Backend oder Backup betrifft, klären wir bei der Speicherentscheidung mit.
 
-**Als Smartphone-Nutzerin möchte ich die Web-App zum Startbildschirm hinzufügen, damit ich schnell auf mein Trainingstagebuch zugreifen kann.**
+## US-06 · Vom Startbildschirm öffnen
 
-- Auf den vom Team festgelegten unterstützten Geräten funktioniert die dokumentierte Installation.
-- Nach Installation kann ich die App über ihr Symbol öffnen.
-- Wenn kein programmatischer Installationsdialog verfügbar ist, erhalte ich eine passende manuelle Anleitung.
-- Die App bleibt ohne Installation im Browser nutzbar.
+**Als Smartphone-Nutzerin möchte ich die Web-App zum Startbildschirm hinzufügen, damit ich sie schnell öffnen kann.**
 
-Offen: Konkrete Geräte und Browser dokumentieren; iOS und Android nicht als identisch voraussetzen. Ein Manifest allein belegt nicht die Funktion auf realen Geräten. Nutzenprüfung: Installationsversuch je unterstützter Plattform protokollieren.
+Fertig ist die Funktion, wenn:
 
-## Ideenparkplatz
+- Installation und Öffnen auf jeder vereinbarten Plattform geprüft sind;
+- bei Bedarf eine passende manuelle Anleitung vorhanden ist;
+- die App auch ohne Installation im Browser nutzbar bleibt.
 
-Ernährung und Barcode-Suche, Übungskatalog, HealthKit, Flo, Wearables, Trainingsempfehlungen und KI-Funktionen. **Noch keine Lieferzusagen.** Neue Idee zuerst mit konkretem Nutzerproblem, Nutzen, Abhängigkeit und Aufwand erfassen. Eine API wird nicht allein deshalb eingebaut, weil sie verfügbar ist.
+Prüfung: **AT-06**. Geräte und Browser noch auswählen; nicht dieselbe Installation für alle voraussetzen.
 
-## Vorlage für weitere Stories
+## Später vielleicht
 
-ID / Titel / Anforderungsbezug / Status / Priorität / Aufwand mit Einheit / Annahmen / Verantwortliche Person / Prüfung / Issue-Link.
+Ernährung, Barcode-Suche, Übungskatalog, Wearables, Health-Anbindung, Flo-Import und KI-Coach. Erst ein konkretes Problem und den Aufwand prüfen, dann entscheiden.
 
-„Als … möchte ich …, damit …“
+## Neue Story ergänzen
 
-Prüfbare Akzeptanzkriterien, mindestens ein Fehler- oder Leerfall, Nutzenprüfung, offene Fragen und verknüpfte Tasks ergänzen. Als Einstieg steht auch eine [GitHub-Vorlage](../.github/ISSUE_TEMPLATE/user-story.yml) bereit. Die freigegebene Story steht hier; das Issue hält Zuständigkeit und Bearbeitungsstand.
+„Als … möchte ich …, damit …“ + Bezug zur Anforderung + beobachtbare Kriterien + ein relevanter Fehlerfall + Priorität + Aufwand. Die [GitHub-Vorlage](../.github/ISSUE_TEMPLATE/user-story.yml) hilft dabei. Inhalt hier pflegen, Aufgaben und Zuständigkeiten im Issue, Status im Board.

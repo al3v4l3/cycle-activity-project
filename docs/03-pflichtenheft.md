@@ -1,70 +1,51 @@
-# Pflichtenheft · Lösungsentwurf
+# Lösungsentwurf · Unser kurzes Pflichtenheft
 
-**Status: Entwurf v0.1, keine beschlossene Architektur.** Dieses Dokument wird nach der Bedarfsklärung konkretisiert. Kein Framework, Backend oder externer Dienst wurde eingerichtet.
+**Vorschlag vom 18.11.2026. Noch keine beschlossene Technik.** Die [Anforderungen](02-lastenheft.md) sagen, was wir brauchen. Hier zeigen wir, wie die Lösung aussehen könnte.
 
-## Lösungsidee
-
-Eine mobil nutzbare Web-App zeigt drei Bereiche: **Heute**, **Training**, **Verlauf**. Eine installierbare PWA ist das Zielbild; die konkrete technische Auswahl hängt von Teamkenntnissen und Anforderungen ab. Der initiale Papier- oder Klickprototyp benötigt keine API.
+## Unser Ablauf als Bild
 
 ```mermaid
 flowchart LR
-  A[Heute: Befinden erfassen] --> B[Training eintragen]
-  B --> C[Verlauf betrachten]
-  C --> D[Einträge prüfen oder löschen]
-  A -. freiwillig .-> E[Zyklusangabe ergänzen]
-  E --> C
+    A[Heute: Befinden festhalten] --> B[Training eintragen]
+    B --> C[Verlauf ansehen]
+    C --> D[Einträge ändern oder löschen]
+    A -. freiwillig .-> E[Zyklusangabe]
+    E --> C
 ```
 
-Dies ist ein Nutzerablauf, kein UML-Use-Case-Diagramm.
+Das ist eine einfache Ablaufskizze, kein UML-Use-Case-Diagramm. Eine eigene, im Team geprüfte Skizze oder Bildschirmzeichnung ergänzen wir in `design/`.
 
-## Beispiel Use Case UC-01 · Tagesbefinden erfassen
+## Drei einfache Ansichten
 
-Bezug: F-01 / US-01. Akteurin: Nutzerin. Vorbedingung: Tagesansicht ist geöffnet. Auslöser: Sie möchte ihr Befinden dokumentieren.
+- **Heute:** Datum, Energie von 1 bis 5 und eine freiwillige Zyklusangabe.
+- **Training:** Datum, Sportart und Dauer. Speichern oder abbrechen.
+- **Verlauf:** Einträge nach Datum mit Befinden und optionalen Zyklusangaben. Fehlende Werte bleiben erkennbar.
 
-1. Die Nutzerin wählt einen Tag.
-2. Sie wählt ihre Energie auf einer vorläufigen Skala von 1 bis 5; die Bedeutung der Endpunkte ist sichtbar.
-3. Sie ergänzt optional Angaben, deren genaue Auswahl noch zu klären ist.
-4. Das System prüft die Eingabe und bestätigt das Speichern.
-5. Der Eintrag erscheint für den gewählten Tag im Verlauf.
+## Beispiel UC-01 · Tagesbefinden festhalten
 
-Alternativen: Bei ungültiger Eingabe bleibt das Formular offen und erklärt den Fehler. Ein Abbruch speichert nichts. Bei bestehendem Check-in für den Tag ist vor Umsetzung zu entscheiden, ob Bearbeitung oder mehrere Einträge unterstützt werden. Im ersten Entwurf schlagen wir genau einen bearbeitbaren Tages-Check-in vor.
+Ein **Use Case** beschreibt einen konkreten Nutzungsfall. Bezug: F-01 / US-01.
 
-Nachbedingung: Ein gültiger Eintrag ist gespeichert und wieder auffindbar. Für den Klickprototyp wird dieser Zustand nur simuliert und entsprechend bezeichnet.
+1. Die Nutzerin öffnet „Heute“ und wählt einen Tag.
+2. Sie wählt ihre Energie. Zyklusangaben darf sie weglassen.
+3. Sie speichert. Die App prüft die Eingabe.
+4. Bei Erfolg erscheint der Eintrag am gewählten Tag im Verlauf.
 
-## Vorläufiges Datenmodell
+**Andere Fälle:** Fehlende Pflichtangaben erklären wir im Formular. Bei einem Speicherfehler zeigen wir keinen Erfolg an. Abbrechen legt nichts an. Nach dem vorgeschlagenen Eintragsmodell wird ein vorhandener Check-in geöffnet und geändert, statt einen zweiten anzulegen.
 
-| Objekt | Minimale Felder | Noch zu entscheiden |
-| --- | --- | --- |
-| Tages-Check-in | ID, lokales Datum, Energie 1–5, optionale Befindensangabe | Auswahlwerte, Bearbeitung, Zeitbezug |
-| Zyklusangabe | ID, lokales Datum, freiwillige beobachtete Angabe | Welche Angaben bringen im Alltag Nutzen? Keine automatische Phasenbestimmung vorgesehen |
-| Trainingseinheit | ID, Datum, Sportart, Dauer in Minuten, optionale empfundene Anstrengung | Reicht dies oder braucht die Zielgruppe Sätze/Gewichte? |
+## Welche Daten brauchen wir?
 
-Fehlende Angaben und der Wert null sind verschieden. Datums- und Skalenregeln werden vor Implementierung festgelegt. Account und Personenprofil sind keine automatisch vorausgesetzten Datenobjekte.
+| Eintrag | Felder im ersten Entwurf |
+| --- | --- |
+| Tagesbefinden | ID, lokales Datum, Energie 1–5 |
+| Zyklusangabe | ID, lokales Datum, freiwillige Angabe zu beobachteter Blutung |
+| Training | ID, lokales Datum, Sportart, Dauer in ganzen Minuten |
 
-## Architekturentscheidungen vorbereiten
+Die Eingaberegeln stehen gesammelt im Lastenheft. „Keine Angabe“ und der Wert „nein“ sind verschieden. Ein Account ist noch nicht eingeplant.
 
-| Frage | Optionen | Entscheidungskriterium / nächster Schritt |
-| --- | --- | --- |
-| Oberfläche | Teamvertrautes Web-Framework; Kandidat Vite mit PWA-Plugin | Kenntnisse aller vier Personen, mobile Bedienung, Testbarkeit |
-| Speicherung | Lokal im Browser oder Backend mit Account | Gerätewechsel notwendig? Löschung? Datenverlust? Aufwand? |
-| Übungsdaten | Eigene kleine Auswahl oder externer Katalog | Benötigt US-03 überhaupt einen Katalog? Lizenz und Datenqualität prüfen |
-| Health-Daten | Manuelle Eingaben zuerst, native Anbindung später | PWA-Kern muss ohne HealthKit/Flo funktionieren |
+## Was wir technisch noch klären
 
-Für Visualisierung und optionale Prototypen vor M1 verwenden wir synthetische Daten. Die erste Implementierungsiteration folgt laut Mitschrift nach der Vorstellung gegen Semesterende. Falls das Team danach eine lokale Speicherung auswählt, muss es deren Grenzen erläutern: Löschen der Browserdaten kann Daten entfernen, Gerätesynchronisation entsteht dadurch nicht. Ein Backend benötigt ein eigenes Zugriffs- und Datenkonzept. Die Auswahl wird als Entscheidung protokolliert.
+Sprache und Oberfläche wählen wir nach unseren Kenntnissen und dem Aufwand. Bei der Speicherung vergleichen wir Browser-Speicher und ein Backend. Brauchen wir Gerätewechsel? Was passiert bei gelöschten Browserdaten? Wie funktionieren Zugriff und Löschung? Die Entscheidung halten wir in [Technik](11-technologie-und-ki.md) und [Entscheidungen](entscheidungen.md) fest.
 
-Oberfläche, fachliche Regeln und Speicherung sollen getrennt gedacht werden; ob MVC oder eine andere Struktur geeignet ist, entscheiden wir anhand des gewählten Frameworks. Es ist noch keine MVC-Implementierung vorhanden.
+Oberfläche, Eingaberegeln und Speicherung sollen getrennt bleiben. MVC und weitere Muster können dabei helfen, falls sie zur gewählten Technik passen. Weitere UML-Diagramme erstellen wir bei einer konkreten offenen Frage. Eine externe API braucht der erste manuelle Ablauf nicht.
 
-## Rückverfolgbarkeit und Abnahme
-
-| Anforderung | Story | Entwurf | Abnahmetest |
-| --- | --- | --- | --- |
-| F-01, Q-04 | US-01 | UC-01, Tages-Check-in | AT-01, AT-08 |
-| F-02, Q-01 | US-02 | Freiwillige Zyklusangabe | AT-02 |
-| F-03 | US-03 | Trainingseinheit | AT-03 |
-| F-04, Q-05 | US-04 | Verlauf | AT-04 |
-| F-05 | US-05 | Einzel- und Gesamtlöschung | AT-05 |
-| F-06 | US-06 | Installationsablauf | AT-06 |
-| Q-02 | alle Kernstories | Mobile Formulare | AT-07 |
-| Q-03 | alle Demonstrationen | Künstlicher Datensatz | Datenprüfung |
-
-Details und Status der Tests stehen in [Erhebung und Qualität](07-erhebung-und-qualitaet.md). Vor der Implementierung ergänzt das Team hier Architektur, Datenflüsse, ausgewählte Versionen und Schnittstellen. Eine Integration gilt erst nach einem nachvollziehbaren Versuch als technisch bestätigt.
+Anforderung → Story → Prüfung ist im [Backlog](04-user-stories.md) und im [Testplan](07-erhebung-und-qualitaet.md) verknüpft. Programmieren beginnen wir laut bisheriger Mitschrift nach der Vorstellung.

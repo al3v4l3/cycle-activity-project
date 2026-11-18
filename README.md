@@ -1,58 +1,46 @@
-# Fitness und Zyklus · Software-Engineering-Projekt
+# Unser Software-Engineering-Projekt
 
-Dies ist das **gemeinsame Projekt- und Entwicklungsrepository** unseres vierköpfigen Teams. Hier entsteht die mobile Web-App, die Training, persönliches Tagesbefinden und freiwillige Zyklusangaben zusammenführt: von Anforderungen und Entwurf über Quellcode und Tests bis zur Abgabe und Weiterentwicklung.
+Wir sind zu viert und planen eine Fitness-Web-App. Sie soll Training, Tagesbefinden und freiwillige Zyklusangaben an einem Ort zeigen. **CSAH ist bisher nur unser Arbeitstitel.**
 
-**Aktuelle Phase: Projektstart und Vorbereitung der ersten Vorstellung.** Die erste Implementierungsiteration folgt laut unserer Mitschrift nach der Vorstellung gegen Semesterende. Es gibt noch keine lauffähige App; der Anwendungscode wird später in diesem selben Repository entwickelt.
+**Stand 18.11.2026:** Repo, Board und erste Entwürfe sind vorbereitet. Die Gruppe bespricht und entscheidet den Inhalt noch. Die Fitness-App ist noch nicht programmiert.
 
-Arbeitstitel: **CSAH**. „Cycle Sync Activity Hub“ und „Cycle, Strength, Awareness, Harmony“ sind Namensideen; Name und Bedeutung sind noch nicht entschieden.
+## Für unser Treffen am 19.11.
 
-**[Kanban-Board](https://github.com/users/al3v4l3/projects/1)** · **[Aufgaben](https://github.com/al3v4l3/cycle-activity-project/issues)** · **[Checkliste für die erste Vorstellung](docs/09-meilenstein-vorstellung.md)**
+**[Hier anfangen: Ablauf für das Gruppentreffen](START-HIER.md)**
 
-## Hier beginnt ihr
+Wir wollen gemeinsam beantworten: **Für wen bauen wir was – und woran merken wir, dass es funktioniert?** Das meint die Operationalisierung unseres Ziels.
 
-**Neu im Modul oder in der Gruppe?** Die [interaktive Projektwerkstatt](lernen/README.md) erklärt die relevanten Grundlagen von Anfang an: mit zwölf Kapiteln, Beispielen aus unserem Projekt, Übungen, Glossar und Selbstcheck. Die HTML-Datei lässt sich herunterladen und direkt im Browser öffnen.
-
-Öffnet gemeinsam **[START-HIER.md](START-HIER.md)**. Dort steht der Ablauf für eure erste Arbeitsstunde. Alle Produktinhalte sind vorbereitete **Entwürfe**, die ihr im Team prüft. Aussagen über Bedürfnisse sind bis zu einer Erhebung Hypothesen.
-
-| Ich möchte … | Hier arbeiten wir |
+| In dieser Reihenfolge öffnen | Was steht dort? |
 | --- | --- |
-| wissen, was wir zur ersten Vorstellung vorbereiten | [Meilenstein M1 nach Mitschrift](docs/09-meilenstein-vorstellung.md) |
-| Einleitung und Motivation gemeinsam ausarbeiten | [Projektbeschreibung in Prosa](docs/10-einleitung-und-motivation.md) |
-| Technologie und KI-Unterstützung auswählen | [Technologieentscheidung](docs/11-technologie-und-ki.md) |
-| verstehen, was die Vorlesung dazu sagt | [Vorlesungsbezug](docs/01-vorlesungsbezug.md) |
-| festhalten, für wen wir welches Problem lösen | [Lastenheft](docs/02-lastenheft.md) |
-| beschreiben, wie wir Anforderungen umsetzen wollen | [Pflichtenheft](docs/03-pflichtenheft.md) |
-| User Stories und Akzeptanzkriterien bearbeiten | [Product Backlog](docs/04-user-stories.md) |
-| Aufgaben übernehmen und drei Wochen planen | [Team und Arbeitsplan](docs/05-team-und-plan.md) und [GitHub Issues](https://github.com/al3v4l3/cycle-activity-project/issues) |
-| APIs und vorhandene Lösungen vergleichen | [Recherche](docs/06-recherche.md) |
-| Interviews und Tests vorbereiten | [Erhebung und Qualität](docs/07-erhebung-und-qualitaet.md) |
-| unsere Zwischenpräsentation vorbereiten | [Präsentationsleitfaden](docs/08-zwischenpraesentation.md) |
-| eine Entscheidung oder Besprechung festhalten | [Entscheidungen](docs/entscheidungen.md), [Protokollvorlage](docs/protokolle/VORLAGE.md) |
+| **1. [Projektziel](docs/00-projektziel.md)** | Idee, Motivation und konkrete Erfolgskriterien |
+| **2. [Anforderungen / Lastenheft](docs/02-lastenheft.md)** | Was unsere App können soll und welche Regeln gelten |
+| **3. [User Stories / Backlog](docs/04-user-stories.md)** | Funktionen aus Nutzersicht, Reihenfolge und Kriterien |
+| **4. [Bild und Lösungsentwurf](docs/03-pflichtenheft.md)** | So könnte der Ablauf aussehen |
+| **5. [Aufgaben und Teamplan](docs/05-team-und-plan.md)** | Wer übernimmt was bis wann? |
+| **6. [Checkliste für die Vorstellung](docs/09-meilenstein-vorstellung.md)** | Was wir Anfang Dezember zeigen wollen |
 
-## Ein Repository für das ganze Projekt
+**[Kanban-Board öffnen](https://github.com/users/al3v4l3/projects/1/views/1)** · **[Alle Aufgaben](https://github.com/al3v4l3/cycle-activity-project/issues)**
 
-| Bereich | Inhalt |
-| --- | --- |
-| `src/` | Anwendungscode, sobald die erste Implementierungsiteration beginnt |
-| `tests/` | Ausführbare Tests, passend zur später gewählten Technologie |
-| `design/` | Projektbild, Abläufe, Wireframes und Entwürfe |
-| `docs/` | Anforderungen, Entscheidungen, Zusammenarbeit und Projektnachweise |
-| `lernen/` | Eigenständiger interaktiver Einstieg ins Fach und unsere Projektarbeit |
-| `.github/` | Vorlagen und später bei Bedarf automatisierte Prüfungen |
+## Was wir bis zur Vorstellung erreichen wollen
 
-`src/` und `tests/` enthalten zunächst nur Orientierung. Sprache, Framework und Startbefehle werden nach der gemeinsamen Technologieentscheidung ergänzt. Die Projektstruktur wird dabei an die gewählte Technologie angepasst.
+Wir können unsere Idee erklären, das Ziel konkret prüfen und zeigen, wie wir als Team arbeiten. Dafür brauchen wir einen verständlichen Text, Anforderungen, User Stories, ein geordnetes Backlog, ein Bild, Aufgaben und eine begründete Technikauswahl.
 
-## So halten wir alles zusammen
+Nach unserer bisherigen Mitschrift beginnt die erste Umsetzung nach der Vorstellung gegen Semesterende. **Interne Vorbereitung bis 01.12.; den genauen Vorstellungstermin bestätigen wir noch.**
 
-Anforderungen stehen in den Dokumenten, Aufgaben und Ergebnisnachweise in **Issues**, der Arbeitsstatus im **Kanban-Board** und Änderungen zur gemeinsamen Prüfung in **Pull Requests**. Die Anleitung steht in [CONTRIBUTING.md](CONTRIBUTING.md). Aufgaben referenzieren die IDs der Anforderungen und User Stories, statt deren Inhalt mehrfach zu kopieren.
+## Bei Bedarf nachlesen
 
-Als erster Produktumfang wird vorgeschlagen: Tages-Check-in, Trainingseintrag und gemeinsame Verlaufssicht. Zyklusangaben bleiben freiwillig. Das Team entscheidet den Umfang nach ersten Gesprächen. Kalorientracking, Bilderkennung und direkte Health-Anbindungen gehören vorerst in den Ideenparkplatz.
+- [Die Theorie kurz erklärt und mit Fundstellen](docs/01-vorlesungsbezug.md)
+- [Prüfungen und kurze Bedarfsgespräche](docs/07-erhebung-und-qualitaet.md)
+- [Ablauf für die Präsentation beim Dozenten](docs/08-zwischenpraesentation.md)
+- [Einleitung und Motivation als Fließtext](docs/10-einleitung-und-motivation.md)
+- [Technik und KI auswählen](docs/11-technologie-und-ki.md)
+- [Zusammenarbeit auf GitHub](CONTRIBUTING.md)
+- [Entscheidungen](docs/entscheidungen.md) und [Vorlage für Treffen](docs/protokolle/VORLAGE.md)
+- [Frühere API-Recherche](docs/06-recherche.md), wenn eine Funktion sie wirklich braucht
+- [Interaktiver Lernbegleiter](lernen/README.md), wenn jemand Grundlagen vertiefen möchte
 
-## Stand und Grenzen
+## Wo unsere Sachen liegen
 
-- Start: 11.11.2026. Vorstellung laut Mitschrift in drei bis vier Wochen; **02.–09.12.2026 ist ein Planungsfenster**, kein bestätigter Termin. Intern zielen wir auf Vorbereitung bis 01.12.
-- Der Arbeitsmodus ist ein Vorschlag für ein kleines studentisches Team mit Elementen aus Scrum. Wir behaupten keine vollständige Scrum-Einführung.
-- Die [Mitschrift zur Vorstellung](docs/09-meilenstein-vorstellung.md) ist unsere konkrete Arbeitsgrundlage. Eine formale Bewertungsmatrix liegt weiterhin nicht vor; nur die verbleibenden Unklarheiten werden nachgefragt.
-- Originale Moodle-Unterlagen, persönliche Gesundheitsdaten und Interviewrohmaterial werden nicht veröffentlicht. Lokal bleiben die Vorlesungsdateien im ignorierten Ordner `Vorlesungsmaterial/`.
-- Dieses Gerüst wurde mit KI-Unterstützung aus den bereitgestellten Unterlagen und öffentlichen Quellen vorbereitet. Das Team prüft, überarbeitet und verantwortet die Inhalte. Vorgaben zur Kennzeichnung in der Abgabe sind noch zu klären.
-- Eine Projektlizenz wählt das Team später bewusst. Vor Wiederverwendung fremder Inhalte prüfen wir deren jeweilige Lizenz.
+`docs/` enthält die Projektunterlagen, `design/` unsere Bilder, `src/` später den App-Code und `tests/` die ausführbaren Tests. Das Repo bleibt die gemeinsame Ablage für das gesamte Projekt. `lernen/` ist nur unser Lernwerkzeug.
+
+Originale Moodle-Dateien, echte Gesundheitsdaten, Zugangsdaten und Interviewrohnotizen gehören nicht ins öffentliche Repo. Die Entwürfe wurden mit KI-Unterstützung vorbereitet; wir prüfen, ändern und verantworten sie gemeinsam. Zusätzliche Vorgaben des Dozenten halten wir mit Datum fest.

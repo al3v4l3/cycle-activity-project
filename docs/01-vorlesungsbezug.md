@@ -1,49 +1,57 @@
-# Was wir aus der Vorlesung übernehmen
+# Was wir aus der Vorlesung brauchen
 
-Auswertung vom 11.11.2026. Quellen sind die lokal bereitgestellten Lehrunterlagen. Dateinamen, Foliennummern und Zellbereiche dienen zum Nachschlagen in euren eigenen Moodle-Kopien. Die Originale werden nicht ins öffentliche Repository übernommen. Die Übersicht fasst Inhalte in eigenen Worten zusammen.
+**Kurzfassung für unser Projekt, Stand 18.11.2026.** Die Originalunterlagen liegen lokal in `Vorlesungsmaterial/`. Hier erklären wir die Inhalte in eigenen Worten.
 
-**Ergänzung:** Die inzwischen bereitgestellte Team-Mitschrift konkretisiert M1; siehe [Meilenstein Vorstellung](09-meilenstein-vorstellung.md). Die folgenden Fundstellen erklären die Methoden.
+## Unser Vorgehen in sechs Schritten
 
-**Lehrinhalt ist keine bestätigte Abgabevorschrift.** Ein gesondertes Aufgabenblatt oder eine Bewertungsmatrix wurde in den bereitgestellten Dateien nicht identifiziert. Insbesondere können wir daraus weder zwei umfangreiche Hefte noch eine bestimmte Anzahl von Diagrammen als verpflichtend erklären.
+1. **Problem verstehen:** Für wen machen wir die App? Was fehlt dieser Person heute? Eigene Annahmen von echten Rückmeldungen unterscheiden.
+2. **Ziel konkret machen:** Welche Handlung soll möglich sein? Woran erkennen wir Erfolg? Das ist die Operationalisierung.
+3. **Anforderungen und Stories aufschreiben:** Leistung, Regeln und überprüfbare Kriterien festhalten.
+4. **Priorisieren und Aufgaben planen:** Kleinen Kern wählen, Arbeit aufteilen, Zeit schätzen und Puffer lassen.
+5. **Lösung zeigen und später umsetzen:** Erst einen verständlichen Ablauf entwerfen, nach der Vorstellung den ausgewählten Ablauf programmieren.
+6. **Prüfen und verbessern:** Stimmen Ergebnis und Anforderungen überein? Hilft es der Zielgruppe? Erkenntnisse für den nächsten Schritt nutzen.
 
-## Die entscheidenden Fundstellen
+Wir gehen in kleinen Schritten vor und schauen regelmäßig gemeinsam auf Ergebnisse. Das ist unser angepasstes Vorgehen mit Scrum-Elementen. Wir müssen dafür nicht jedes theoretische Modell vollständig nachbauen.
 
-| Lehrinhalt | Fundstelle | Unsere Anwendung |
+## Die wichtigsten Begriffe
+
+| Begriff | Einfach erklärt | Unser Beispiel |
 | --- | --- | --- |
-| Bedarf vor Entwurf; frühes Feedback über Prototypen | `Software Engineering Folien.ppt`, Folien 2–4 | Erst Problem und Anforderungen klären, dann Abläufe skizzieren und prüfen |
-| Funktionale Anforderungen beschreiben Leistungen aus Benutzersicht; Anforderungen einzeln und konsistent formulieren | gleiche Datei, Folien 16–18 | Getrennte Anforderungs-IDs, klare Akzeptanzkriterien, gegenseitige Prüfung |
-| Funktionale und nichtfunktionale Anforderungen unterscheiden | `Requirements_Planung_Schätzung.xls`, `Tabelle1!B3:K16` | Funktionen und Qualitätsanforderungen im Lastenheft getrennt |
-| User Stories aus Pflichtenheft oder bei kleinen Projekten direkt aus Interviews, Beobachtungen, Fragebogen ableiten | gleiche Datei, `Tabelle1!C142:F159` | Kleine Bedarfserhebung, danach priorisiertes Backlog; kein monatelanger Dokumentationsvorlauf |
-| Story besitzt Titel, Beschreibung, Aufwand, Priorität | gleiche Datei, `Tabelle1!D149:F159`; `Templates!B4:B12` | Story-Vorlage und GitHub-Issue-Vorlage |
-| Tasks zerlegen eine Story und haben eine verantwortliche Person, Beschreibung und Aufwand | gleiche Datei, `Tabelle1!C161:F188` | Eine Person führt die Aufgabe, eine andere prüft das Ergebnis |
-| Schätzungen gemeinsam begründen, Annahmen klären und große Stories teilen | gleiche Datei, `Tabelle1!C191:F216` | Schätzung im Team, zunächst Personenstunden; Unsicherheit offenlassen |
-| Iterationen liefern Ergebnisse und erhalten Feedback; Umfang an Kapazität anpassen | gleiche Datei, `Tabelle1!C217:K288` und `F311:K347` | Drei kurze Arbeitswochen mit Reviews; Puffer und begrenzter Umfang |
-| Aufgaben müssen zusammen die Story abdecken; Schätzung aus Tasks verbessern | gleiche Datei, `Tabelle1!F485:H501` | Verknüpfung von Story, Aufgaben und Abnahmekriterien |
-| Rollen, Planning, Review, Retro, Backlogs, DoR und DoD | `Scrum Handout.docx`, Abschnitte „Scrum Framework“, „Definitionen Rollen“, „Scrum Meetings“, „Definitionen Artefakte und Werkzeuge“ | Prioritätenverantwortung, kurze Planung, Ergebnisreview und Prozessreflexion |
-| Rolle, Funktion und Nutzen; INVEST; kleine vertikale Stories | gleiche Datei, Abschnitte „Was ist eine gute User Story?“ und „User Story vertikal formulieren“ | Nutzbarer Ablauf je Story, technische Arbeiten als untergeordnete Tasks |
-| Nutzungskontext, Prototyping und Evaluation gehören zusammen | `UE Handout.docx`, „Usability Engineering“, „Konzeptionsphasen“, „Prototypen erstellen“, „Thinking aloud“ | Papier- oder Klickprototyp mit wenigen Personen prüfen und Änderungen dokumentieren |
-| Use Cases ergänzen erfasste Anforderungen | `UML2.xls`, `Skript!B2848:B2859` | Ein relevanter Use Case nach der Bedarfsklärung; Diagramme bei konkretem Erklärungsbedarf |
-| Tests aus Spezifikation ableiten; gültige, ungültige und Grenzfälle betrachten | `Testen.xls`, `Tabelle1!C85:D88`, `D169:D187` | Akzeptanzfälle schon in der Planung festhalten |
+| Ziel | Was wir erreichen wollen | Training und Befinden zusammen nachvollziehen |
+| Operationalisierung | Das Ziel beobachtbar und prüfbar machen | Eintrag speichern und nach erneutem Öffnen wiederfinden |
+| Anforderung | Was die App leisten soll oder welche Regel gilt | F-03: Training mit Datum, Sportart und Dauer erfassen |
+| Lastenheft | Was brauchen wir und wozu? | Unsere Anforderungsliste |
+| Pflichtenheft | Wie soll die Lösung aussehen? | Ansichten, Abläufe, Daten und Technik |
+| User Story | Wunsch aus Sicht einer Nutzerin mit einem Nutzen | US-03: Training eintragen, um Aktivität nachzuvollziehen |
+| Akzeptanzkriterium | Woran eine Story als erfüllt erkennbar ist | Null Minuten erzeugen einen Fehlerhinweis |
+| Task | Einzelne Aufgabe mit Zuständigkeit und Aufwand | Formular skizzieren |
+| Product Backlog | Geordnete Liste anstehender Arbeit | Kernstories zuerst, Erweiterungen später |
+| Review | Ergebnis gemeinsam ansehen | Prüfen, ob Story und Skizze dasselbe beschreiben |
+| Retrospektive | Zusammenarbeit verbessern | Früher eine zweite Person zum Prüfen einplanen |
+| Ready / Done | Bereit zum Start / vereinbartes Ergebnis geprüft | Kriterien und Verantwortung klar / Ergebnis verlinkt und gegengelesen |
 
-Zelladressen beziehen sich auf die aus den Originaldateien gelesenen Tabellen. Zeichnungen und eingebettete Bilder sind nicht Grundlage der Aussagen in dieser Tabelle.
+Eine Stunde Treffen mit vier Personen sind vier **Personenstunden**. Aufwand ist nicht dasselbe wie Kalenderdauer. Story Points sind eine andere Schätzart; wir rechnen sie nicht einfach in Stunden um.
 
-## Lastenheft, Pflichtenheft und User Stories
+## Welche Theorie ist wo umgesetzt?
 
-Für dieses Projekt verwenden wir folgende **praktische Arbeitsaufteilung**:
+| Lehrinhalt | Unsere Anwendung | Fundstelle im Material |
+| --- | --- | --- |
+| Software-Lebenszyklus, Feedback und Prototypen | [Lösungsentwurf](03-pflichtenheft.md), kleine Arbeitsschritte mit Rückmeldung | `Software Engineering Folien.ppt`, Folien 2–4 |
+| Ziele und prüfbare Anforderungen unterscheiden | [Zieltabelle mit Erfolgskriterien](00-projektziel.md) | gleiche Datei, Folie 11; Anforderungen weiter in Folien 12–18 |
+| Funktionale und nichtfunktionale Anforderungen | [F- und Q-Anforderungen](02-lastenheft.md) | `Requirements_Planung_Schätzung.xls`, Tabelle1 B3:K16 |
+| User Stories mit Beschreibung, Priorität und Aufwand | [Backlog](04-user-stories.md) | gleiche Datei, C142:F159 |
+| Tasks, gemeinsame Schätzung, kleine Umfänge und Reserve | [Teamplan](05-team-und-plan.md) und Issues | gleiche Datei, C161:F216, C217:K288, F311:K347 |
+| Aufgaben müssen den vereinbarten Umfang abdecken | [M1-Prüfliste](09-meilenstein-vorstellung.md) | gleiche Datei, F485:H501 |
+| Rollen, Planning, Review, Retro, Ready und Done | Gemeinsame Planung, Zuständigkeiten und Gegenlesen | `Scrum Handout.docx`, Rollen, Meetings, Artefakte und Werkzeuge |
+| Rolle, Wunsch, Nutzen; INVEST; kleine durchgängige Stories | [Stories samt Kriterien](04-user-stories.md) | gleiche Datei, Abschnitte zu guten und vertikalen User Stories |
+| Nutzungskontext, Prototypen, lautes Denken | [Kurze Gespräche und Bedienungstest](07-erhebung-und-qualitaet.md) | `UE Handout.docx`, Usability Engineering, Prototypen erstellen, Thinking aloud |
+| Use Cases | Beispiel UC-01 im Lösungsentwurf | `UML2.xls`, Skript B2848:B2859 |
+| Tests aus Anforderungen und Grenzfällen ableiten | [Testfälle AT-01 bis AT-08](07-erhebung-und-qualitaet.md) | `Testen.xls`, Tabelle1 C85:D88 und D169:D189 |
 
-- **Lastenheft:** Welches Problem hat welche Zielgruppe? Was soll die App leisten, mit welchen Grenzen und Qualitätszielen?
-- **Pflichtenheft:** Wie soll die ausgewählte Lösung diese Anforderungen erfüllen? Hier stehen Abläufe, Daten, Architekturentscheidungen und Abnahmebezüge.
-- **User Stories:** Kleine Nutzerbedürfnisse, die wir priorisieren und mit Akzeptanzkriterien bearbeiten können.
-- **Tasks:** Konkrete Arbeitsschritte zur Klärung oder Umsetzung einer Story, jeweils mit Verantwortung und Aufwand.
+Die Fundstellen stammen aus der bisherigen Textauswertung; eingebettete Vorlesungsgrafiken sind nicht Grundlage dieser Liste. MVC, Entwurfsmuster sowie weitere Sequenz- und Zustandsdiagramme brauchen wir beim technischen Entwurf, wenn sie eine konkrete Frage klären. Im [Lernbegleiter](../lernen/README.md) sind die Grundlagen erklärt.
 
-Die Tabelle erwähnt das Pflichtenheft ausdrücklich. Eine eigenständige Lastenheftpflicht konnten wir in den ausgewerteten Texten nicht feststellen. Die beiden kurzen Dokumente sind daher eine sinnvolle Ordnung für euren Wunsch, **keine behauptete Prüfungsauflage**. Wenn die Lehrperson andere Formate verlangt, passen wir sie an.
+## Was davon für die Vorstellung verlangt ist
 
-## Unser vorgeschlagener Prozess
+Die Theorie erklärt Methoden. Welche davon wir zur Vorstellung zeigen, steht in unserer [Checkliste nach Mitschrift](09-meilenstein-vorstellung.md). Neu ist laut Rückmeldung vom 18.11. die Betonung der **Operationalisierung des Projektziels**.
 
-Wir kombinieren eine kurze Anforderungsklärung mit wöchentlichen Planungs- und Feedbackschleifen. Das ist ein kleines hybrides Vorgehen, passend zum in `Tabelle1!I20:J22` beschriebenen Einsatz von Hybridmodellen.
-
-Scrum liefert nützliche Begriffe und Abläufe. Weil wir zunächst Planung und Prototypen bearbeiten und keine täglichen Scrum-Termine festgelegt haben, nennen wir das **„iteratives Vorgehen mit Scrum-Elementen“**. Ein Dokumentenpaket oder Papierprototyp wird nicht als fertiges Software-Inkrement ausgegeben. DoR ist laut Handout eine ergänzende Vereinbarung, kein offizieller Bestandteil des Scrum Guides.
-
-Die Vorlesungstabelle schätzt in Stunden/Tagen, das Scrum-Handout behandelt auch Story Points. Wir starten in Personenstunden, weil wir neben dem Studium reale Kapazität planen müssen. Das ist eine Teamempfehlung, keine Umrechnung von Story Points in Stunden. Den beispielhaften V-Faktor 0,7 der Vorlesung übernehmen wir nicht ungeprüft als gemessene Teamleistung.
-
-MVC, Entwurfsmuster, Sequenz- und Zustandsdiagramme sind im Material ebenfalls vorhanden. Ihre konkrete Anwendung entscheiden wir beim Entwurf. Heute ist ein verständlicher Nutzerablauf wertvoller als vorsorglich alle Diagrammarten auszufüllen.
+Eine Pflicht zu zwei langen Heften, bestimmten Diagrammzahlen oder einem vollständig eingeführten Scrum-Prozess ist aus den bisherigen Angaben nicht bestätigt. Wir nutzen kurze Unterlagen, die zusammenpassen und uns bei der Arbeit helfen. Den genauen Termin und die verbleibenden unklaren Begriffe klären wir mit dem Dozenten.

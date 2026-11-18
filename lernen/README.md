@@ -2,6 +2,10 @@
 
 Ein eigenständiger interaktiver Lernbegleiter für neue Mitglieder unseres Viererteams. Er erklärt die projektbezogenen Inhalte der bereitgestellten Vorlesung von Grund auf und verbindet sie mit unserem Repository. Fertiggestellt am 18.11.2026; die Projektbeispiele beziehen sich auf den Startstand vom 11.11.2026.
 
+## Aktueller Projektstand
+
+Für das Gruppentreffen am 19.11. wurden die Arbeitsunterlagen vereinfacht. Beginnt dort mit [START-HIER](../START-HIER.md) und [Projektziel samt Operationalisierung](../docs/00-projektziel.md). Dieser Lernkurs erklärt weiterhin Grundlagen anhand des Startstands; bei später geänderten Regeln gelten die aktuellen Projektdokumente.
+
 ## Öffnen und weitergeben
 
 1. [index.html auf GitHub öffnen](https://github.com/al3v4l3/cycle-activity-project/blob/main/lernen/index.html) und über **Download raw file** herunterladen. GitHub zeigt in der normalen Dateiansicht den Quelltext, nicht die Lernoberfläche.

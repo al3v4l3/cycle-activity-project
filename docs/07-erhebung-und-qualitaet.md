@@ -1,71 +1,61 @@
-# Bedarfserhebung und Qualität
+# Wie wir Bedarf und Ergebnis prüfen
 
-**Status: vorbereitete Leitfäden und Testfälle. Noch keine Interviews oder Tests durchgeführt.** Bezüge zur Vorlesung stehen in [01-vorlesungsbezug.md](01-vorlesungsbezug.md).
+**Plan vom 18.11.2026. Noch keine Gespräche oder Produkttests durchgeführt.** Unsere [Erfolgskriterien](00-projektziel.md) müssen im Team abgestimmt werden.
 
-Gespräche und Prototypprüfungen sind ergänzende Methoden. Für M1 steht die [Vollständigkeits- und Konsistenzprüfung](09-meilenstein-vorstellung.md) im Vordergrund; T-08 bleibt optional.
+## Jetzt: Unterlagen gemeinsam prüfen
 
-## Bedarfsgespräche für T-03
+Wir lesen Ziel, Anforderungen, Stories und Bild zusammen. **Vollständigkeit** heißt: Im gewählten Umfang fehlt nichts Wesentliches. **Konsistenz** heißt: Die Aussagen widersprechen sich nicht. Beispiel: Zyklusangaben dürfen nicht in einer Story freiwillig und in einer anderen Pflicht sein.
 
-Zwei bis drei Personen aus der gewählten Zielgruppe, etwa 15 Minuten je Gespräch. Nach Möglichkeit nicht ausschließlich das eigene Team befragen. Erklärt den studentischen Zweck, die freiwillige Teilnahme und dass ihr keine persönlichen Gesundheitsangaben benötigt. Dokumentiert im öffentlichen Repository ausschließlich zusammengefasste Produktbedürfnisse ohne identifizierende Details. Rohnotizen und Kontaktdaten bleiben außerhalb des öffentlichen Repositories.
+Die konkrete [Prüfliste für die Vorstellung](09-meilenstein-vorstellung.md) benutzen wir vor der Probe. Datum, Beteiligte, gefundene Punkte und Korrekturen werden notiert.
 
-Fragen in dieser Reihenfolge, bevor ihr eure Lösung vorstellt:
+## Bedarfsgespräche, wenn wir Annahmen prüfen wollen
 
-1. Wie dokumentierst du heute dein Training? Erzähle von der letzten konkreten Nutzung.
-2. Welche Informationen fehlen dir später beim Rückblick auf eine Einheit?
-3. Wie entscheidest du heute, was und wie intensiv du trainierst?
-4. Spielt dein Tagesbefinden für die Dokumentation eine Rolle? Du musst keine gesundheitlichen Details nennen.
-5. Falls du Zyklusinformationen berücksichtigen möchtest: Wo erwartest du sie im Ablauf? Welche Eingaben würdest du überspringen wollen?
-6. Was ist an bisherigen Apps umständlich? Welche Funktion nutzt du tatsächlich regelmäßig?
-7. Erst danach: Wie würdest du den vorgeschlagenen Ablauf nutzen? Was würdest du weglassen?
+Zwei bis drei kurze Gespräche sind ein Vorschlag, keine bestätigte Pflichtanzahl. Wir fragen nach dem bisherigen Alltag, bevor wir unsere Lösung zeigen:
 
-Nicht fragen: „Würdest du unsere tolle zyklusbasierte App nutzen?“ Ein freundliches Ja ist kein Bedarfsnachweis. Unterscheidet beobachtetes Verhalten, Aussagen und eure Interpretation.
+1. Wie hast du dein letztes Training festgehalten?
+2. Was wolltest du später dazu wissen? Was war umständlich?
+3. Welche Angaben zum Tagesbefinden wären dabei hilfreich?
+4. Würdest du optionale Zyklusangaben im Ablauf erwarten? Persönliche Gesundheitsdetails brauchen wir dafür nicht.
 
-Ergebnisvorlage für eine anonymisierte Zusammenfassung:
+Danach notieren wir: **Beobachtung → mögliche Anforderung → offene Frage.** Ein freundliches „würde ich nutzen“ allein bestätigt den Bedarf noch nicht. Ins öffentliche Repo kommen nur zusammengefasste Produktbedürfnisse ohne persönliche Rohdaten.
 
-| Erkenntnis-ID | Zusammengefasstes Bedürfnis | Evidenzart und Anzahl Gespräche | Konsequenz / Story | Unsicherheit |
-| --- | --- | --- | --- | --- |
-| E-01 | noch zu erheben | noch keine | offen | offen |
+## Später: App-Funktionen testen
 
-## Prototypprüfung für T-08
+Alle Tests stehen zunächst auf **nicht durchgeführt**. Die Eingaberegeln im [Lastenheft](02-lastenheft.md) sind noch Vorschläge. Vor der Umsetzung bestätigen oder ändern wir sie und passen die Tests entsprechend an.
 
-Mit zwei bis drei Personen einen Papier- oder Klickprototyp prüfen. Nutzt ausschließlich erfundene Daten. Eine Person moderiert neutral, eine protokolliert; helft erst, wenn die Testperson feststeckt, und notiert diese Hilfe.
-
-- „Du hast heute mittlere Energie. Halte das fest, ohne Zyklusangaben zu machen.“
-- „Du hast gestern 30 Minuten trainiert. Dokumentiere die Einheit.“
-- „Finde die Einträge von gestern und erkläre, welche Informationen vorhanden sind.“
-- „Entferne einen Eintrag. Erkläre, was bei der Löschung aller Einträge passieren würde.“
-
-Lasst die Person laut denken. Erfasst Erfolg, Hilfestellung, missverständliche Begriffe und konkrete nächste Änderung. Die kleine Stichprobe zeigt mögliche Probleme, keine repräsentative Wirksamkeit. Technische Eigenschaften werden an diesem Prototyp nicht als bestanden gewertet.
-
-| Testdatum / Prototypversion | Aufgabe | Erfolg ohne Hilfe? | Beobachtung | Änderung / Issue | Erneut geprüft? |
-| --- | --- | --- | --- | --- | --- |
-| offen | offen | nicht getestet | noch keine Beobachtung | offen | nein |
-
-## Geplante Akzeptanztests der späteren App
-
-Alle Tests haben initial den Status **nicht durchgeführt**. Plattform, Version, Schritte, Ist-Ergebnis und Nachweis werden beim Test ergänzt.
-
-| ID | Bezug | Test und erwartetes Ergebnis |
-| --- | --- | --- |
-| AT-01 | US-01 | Gültigen Check-in erfassen, Seite neu öffnen: Werte stehen am richtigen Tag. Abbruch legt keinen Eintrag an. |
-| AT-02 | US-02, Q-01 | Zyklusangaben weglassen: Training und Check-in bleiben nutzbar; fehlende Daten erscheinen als „keine Angabe“. Freiwillige Angabe wird am richtigen Datum angezeigt. |
-| AT-03 | US-03 | 30 Minuten speichern; 0, −1 und Text als Dauer prüfen: gültiger Wert wird übernommen, ungültige Eingaben werden verständlich abgewiesen. Weitere Grenzwerte nach finaler Spezifikation ergänzen. |
-| AT-04 | US-04 | Künstliche Woche mit Training, Befinden und Lücken betrachten: Einträge sind korrekt zugeordnet, Lücken erkennbar, keine Phasen- oder Kausalitätsbehauptung. Leerer Verlauf bietet einen verständlichen Einstieg. |
-| AT-05 | US-05 | Einzelnen Eintrag löschen, danach Gesamtlöschung abbrechen: nur der einzelne Eintrag fehlt. Anschließend Gesamtlöschung bestätigen und erneut öffnen: betroffene Daten sind weg. Gewählten Speicher und eventuelle Backups in die Prüfung einbeziehen. |
-| AT-06 | US-06 | Auf jeder vereinbarten Plattform installieren und über Startbildschirm öffnen; Browsernutzung bleibt möglich. Tatsächliche Gerät-/Browserversion notieren. |
-| AT-07 | Q-02 | Kernablauf bei z. B. 375 px Breite und mit Tastatur durchgehen: keine verdeckten Aktionen, verständliche Labels, sichtbarer Fokus und erkennbare Fehlermeldungen. Das ist ein Einstieg, kein vollständiger Barrierefreiheitsnachweis. |
-| AT-08 | Q-04 | Nach Entscheidung zum Speicher einen Speicherfehler simulieren: verständliche Meldung, keine falsche Erfolgsmeldung; Vorgehen bei Datenverlust dokumentiert. |
-
-## Risiken für den Projektstart
-
-| Risiko | Frühes Signal | Gegenmaßnahme | Bereich |
+| Test | Bezug | Eingabe / Handlung | Erwartetes Ergebnis |
 | --- | --- | --- | --- |
-| Umfang wächst zu mehreren Apps | Ernährung, KI und Wearables werden gleichzeitig Pflicht | Kernablauf bestätigen, zusätzliche Ideen parken | B |
-| Unbestätigte Prüfungsannahmen | Team behauptet Pflichtdokumente ohne Quelle | T-02 beantworten lassen und Antworten dokumentieren | B |
-| Schnittstelle nicht zugänglich | Keine Entwicklerdokumentation oder nur native Unterstützung | Manueller Ablauf unabhängig von API, T-04 begrenzen | C |
-| Nutzungsproblem nicht belegt | Nur Meinungen aus dem eigenen Team | T-03 vor der Festlegung komplexer Funktionen | A |
-| Gesundheitsangaben werden veröffentlicht | Screenshots oder Rohinterviews enthalten echte Daten | Künstliche Beispiele, Prüfung vor Upload | alle |
-| Zyklus wird zu einer pauschalen Trainingsregel | Automatische Empfehlungen ohne fachliche Prüfung | Im ersten Umfang Beobachtungen dokumentieren; Empfehlungen als getrennte, noch zu prüfende Erweiterung | B/C |
-| Aufgaben bleiben an einer Person hängen | Eine Person schreibt alles, andere sehen es erst am Ende | Je Aufgabe Verantwortung und zweite Prüfung; wöchentlich Zeit und Hindernisse abgleichen | D |
+| **AT-01** | F-01, Q-04 / US-01 | Energie 3 für einen Tag speichern, erneut öffnen und ändern; denselben Tag erneut wählen; leeres Pflichtfeld und Abbruch prüfen | Richtiger Wert am richtigen Tag; Änderung bleibt erhalten; nur ein Check-in je Tag; Fehler erklärt, Abbruch legt nichts an |
+| **AT-02** | F-02, Q-01 / US-02 | Check-in und Training ohne Zyklusangabe anlegen; danach freiwillige Angabe ergänzen | Kernfunktionen bleiben nutzbar; fehlend heißt „keine Angabe“; ergänzte Angabe stimmt mit Datum und Eingabe überein |
+| **AT-03** | F-03 / US-03 | 1 und 30 Minuten; zusätzlich leer, 0, −1, Text, 1,5 und ein Zukunftsdatum; zwei Trainings an einem Tag; Abbruch | Gültige Trainings bleiben nach erneutem Öffnen sichtbar; ungültige Werte werden erklärt; mehrere Trainings möglich; Abbruch legt nichts an |
+| **AT-04** | F-04, Q-01, Q-05 / US-04 | Künstliche Woche mit Training, Befinden, Zyklusangabe und Lücken ansehen; zusätzlich leeren Verlauf öffnen | Richtige Datumszuordnung; Lücken erkennbar; keine Phase oder Ursache erfunden; leerer Verlauf erklärt den Einstieg |
+| **AT-05** | F-05, Q-04 / US-05 | Einzelnen Eintrag löschen; Gesamtlöschung abbrechen; anschließend bestätigen und erneut öffnen | Einzellöschung lässt andere Daten stehen; Abbruch ändert nichts; bestätigte Löschung entfernt die betroffenen Daten in der gewählten Speicherlösung |
+| **AT-06** | F-06 / US-06 | Auf jeder vereinbarten Plattform installieren, vom Startbildschirm öffnen und im Browser nutzen | Alle drei Wege funktionieren wie dokumentiert; Gerät und Browserversion sind festgehalten |
+| **AT-07** | Q-02 | Kernformular bei 375 px Breite und mit Tastatur bedienen | Aktionen erreichbar, Beschriftungen verständlich, Fokus und Fehlerhinweise erkennbar; keine horizontale Verschiebung zum Erreichen der Formularaktionen nötig |
+| **AT-08** | Q-04 / US-01, US-03 | Speicherfehler gezielt auslösen, danach erneut versuchen | Verständliche Fehlermeldung statt falscher Erfolgsmeldung; Eingaben bleiben im offenen Formular erhalten; erneuter Versuch möglich |
 
-Dies ist eine Arbeitsgrundlage für den Prototyp. Vor einem Betrieb mit echten Gesundheitsdaten muss das Team den Datenfluss, Zugriff, Löschung und die einschlägigen Anforderungen gesondert klären; eine Produktionsfreigabe ist hier nicht enthalten.
+AT-07 ist eine einfache Einstiegsprüfung, kein vollständiger Barrierefreiheitsnachweis. Ob Löschung auch ein Backend und Backups betrifft, legen wir mit der Speicherlösung fest und berücksichtigen es dann in AT-05.
+
+## BT-01 · Ist ein Trainingseintrag einfach genug?
+
+**Vorgeschlagener Maßstab aus Z-04:** Mindestens zwei von drei Personen schaffen die Aufgabe ohne Hilfestellung in höchstens zwei Minuten. Vor dem Test im Team bestätigen. Keine bereits gemessene Zeit und keine Dozentenvorgabe.
+
+- Drei Personen aus der vorgesehenen Zielgruppe; frisches Formular auf dem vereinbarten Smartphone-Browser; ausschließlich künstliche Daten.
+- Gleiche Aufgabe: „Du hast gestern 30 Minuten Krafttraining gemacht. Halte das fest, ohne Zyklusangaben zu machen, und finde den Eintrag wieder.“
+- Zeit ab Übergabe der Aufgabe bis zum richtigen Wiederfinden messen. Als Erfolg zählt nur ein korrekt angelegter und wiedergefundener Eintrag.
+- Nicht den Klickweg erklären. Nötige Hilfen, Umwege und Abbruch notieren. Hilfestellung zählt bei diesem Maßstab nicht als Erfolg ohne Hilfe.
+- Ergebnis und Änderung festhalten. Bei einer Wiederholung die neue Version nennen.
+
+Ein Klickprototyp kann diesen Bedienablauf nur simulieren. Echte Speicherung wird zusätzlich technisch getestet. Wenige Personen helfen, Probleme zu finden; sie belegen keine allgemeine Wirksamkeit.
+
+## Q-03 · Datenprüfung
+
+Vor einer Veröffentlichung Dateien, Screenshots und Beispieldaten ansehen: keine echten Gesundheitsdaten, Interviewrohnotizen oder Zugangsdaten. Ergebnis mit Datum und geprüfter Version notieren.
+
+## Vorlage für jedes Prüfergebnis
+
+| Datum / Version / Gerät | Test-ID | Tatsächliches Ergebnis | Status | Nachweis / nächste Änderung |
+| --- | --- | --- | --- | --- |
+| noch offen | noch offen | nicht geprüft | nicht durchgeführt | offen |
+
+Ein Test wird erst nach tatsächlicher Durchführung als bestanden markiert. Fehler werden mit Schritten, erwartetem und tatsächlichem Verhalten im Issue festgehalten.

@@ -1,58 +1,46 @@
-# Lastenheft · Bedarf und Projektumfang
+# Anforderungen · Unser kurzes Lastenheft
 
-**Status: Entwurf v0.1, 11.11.2026.** Noch nicht durch Team oder Nutzerinnen bestätigt. Verantwortlich: offen. Prüfung: offen.
+**Entwurf vom 18.11.2026. Im Gruppentreffen prüfen.** Hier steht, was die App leisten soll. Ziel, Motivation und Erfolgskriterien stehen in [Unser Ziel](00-projektziel.md).
 
-## Ausgangslage und Zielgruppe
+## Was gehört zuerst dazu?
 
-Aus der Projektidee entsteht die Hypothese, dass eine gemeinsame Sicht auf Training, Tagesbefinden und freiwillige Zyklusangaben für Freizeitsportlerinnen hilfreich ist. Eine konkrete Schwierigkeit könnte sein, dass relevante Informationen heute in mehreren Anwendungen oder Notizen verteilt sind. Das ist noch zu erheben.
+Unser Kern ist **Befinden festhalten → Training eintragen → gemeinsamen Verlauf ansehen**. Freiwillige Zyklusangaben und Löschung gehören dazu. Ernährung, automatische Trainingspläne, KI-Coach, Wearables, Flo-Import und soziale Funktionen bleiben zunächst draußen.
 
-Erste vorgeschlagene Zielgruppe: erwachsene Freizeitsportlerinnen, die regelmäßig trainieren und ihren persönlichen Verlauf besser nachvollziehen möchten. Trainingsniveau, Sportarten und der Umgang mit fehlenden oder unregelmäßigen Zyklusangaben werden in Gesprächen geklärt. Der Kernablauf soll auch ohne Zyklusangaben funktionieren.
+Prioritäten: **10 = im Kern zuerst nötig; 20 = danach sinnvoll; 50 = später.** Die Reihenfolge der Stories steht im [Backlog](04-user-stories.md). Eine hohe Priorität heißt nicht, dass alles gleichzeitig entwickelt wird.
 
-**Produktziel als Entwurf:** Nutzerinnen können Training und Tagesbefinden mit geringem Eingabeaufwand gemeinsam dokumentieren und im Verlauf wiederfinden. Sie behalten die Kontrolle über freiwillige Angaben und ihre Trainingsentscheidung.
+## Funktionen – was die Nutzerin tun kann
 
-„So eine App gibt es nicht“ ist keine belegte Ausgangslage. [Die Recherche](06-recherche.md) nennt bereits ein spezialisiertes Angebot. Eine mögliche Abgrenzung, etwa ein besonders einfacher deutschsprachiger Trainingsverlauf, bleibt zu prüfen.
-
-## Beteiligte
-
-| Beteiligte | Interesse / Beitrag |
-| --- | --- |
-| Nutzerinnen der ausgewählten Zielgruppe | Bedarf erklären und Abläufe testen |
-| Vierköpfiges Projektteam | Anforderungen, Entwurf, spätere Umsetzung und Nachweise |
-| Lehrperson | Abgabeerwartungen, methodisches Feedback und Bewertung klären |
-| API- und Bibliotheksanbieter, falls ausgewählt | Technische und lizenzbezogene Rahmenbedingungen |
-
-## Vorgeschlagene Anforderungen
-
-Prioritäten: **10 = zuerst notwendig, 20 = anschließend sinnvoll, 50 = später / optional**. Alle Einträge sind Vorschläge. „Muss“ gilt erst nach Teamentscheidung zum ersten Produktumfang.
-
-| ID | Anforderung | Prio | Prüfnachweis |
+| ID | Anforderung | Prio | Story / Prüfung |
 | --- | --- | --- | --- |
-| F-01 | Die Nutzerin kann ihr Tagesbefinden für einen Tag erfassen und wieder ansehen. | 10 | US-01, AT-01 |
-| F-02 | Die Nutzerin kann freiwillig eine Zyklusnotiz bzw. eine beobachtete Blutung für einen Tag hinterlegen. | 10 | US-02, AT-02 |
-| F-03 | Die Nutzerin kann eine absolvierte Trainingseinheit dokumentieren. | 10 | US-03, AT-03 |
-| F-04 | Die Nutzerin kann Training und Befinden für denselben Zeitraum gemeinsam betrachten. | 10 | US-04, AT-04 |
-| F-05 | Die Nutzerin kann ihre gespeicherten Einträge gezielt und vollständig löschen. | 10 | US-05, AT-05 |
-| F-06 | Die Nutzerin kann die Web-App auf unterstützten Geräten zum Startbildschirm hinzufügen. | 20 | US-06, AT-06 |
-| Q-01 | Zyklusangaben sind freiwillig; fehlende Angaben werden als fehlend angezeigt und nicht als bestimmte Phase gedeutet. | 10 | AT-02, AT-04 |
-| Q-02 | Der Kernablauf ist auf schmalen Smartphone-Bildschirmen bedienbar; Formulare besitzen verständliche Beschriftungen und Fehlerhinweise. | 10 | AT-07 |
-| Q-03 | Der Demo-Datensatz ist vollständig künstlich. Es werden keine persönlichen Gesundheitsdaten im öffentlichen Repository oder in der Präsentation verwendet. | 10 | Datenprüfung vor jeder Veröffentlichung |
-| Q-04 | Gespeicherte Eingaben bleiben in der später gewählten Speicherlösung nach erneutem Öffnen sichtbar. Speicherort und Löschung werden verständlich erklärt. | 10 | AT-01, AT-05, AT-08 |
-| Q-05 | Die App zeigt beobachtete Angaben und stellt keine unbestätigten Zyklusphasen, Leistungsprognosen oder medizinischen Aussagen als Tatsache dar. | 10 | Inhaltsreview, AT-04 |
+| **F-01** | Für einen Tag die eigene Energie von 1 bis 5 festhalten, wieder ansehen und bei Bedarf ändern. | 10 | US-01 / AT-01 |
+| **F-02** | Für einen Tag freiwillig eine beobachtete Blutung angeben oder die Angabe weglassen. | 10 | US-02 / AT-02 |
+| **F-03** | Ein absolviertes Training mit Datum, Sportart und Dauer in Minuten eintragen und wieder ansehen. | 10 | US-03 / AT-03 |
+| **F-04** | Training, Befinden und vorhandene Zyklusangaben gemeinsam nach Datum ansehen. | 10 | US-04 / AT-04 |
+| **F-05** | Einzelne sowie alle eigenen Einträge löschen. Vor der Gesamtlöschung erklären wir, was entfernt wird, und fragen nach Bestätigung. | 10 | US-05 / AT-05 |
+| **F-06** | Die Web-App auf den vereinbarten Geräten zum Startbildschirm hinzufügen und dort öffnen. Ohne Installation bleibt sie im Browser nutzbar. | 20 | US-06 / AT-06 |
 
-## Umfang des ersten Entwurfs
+## Qualitätsregeln – wie die App funktionieren soll
 
-**Zur Diskussion:** Ein Tages-Check-in, eine einfache Trainingserfassung und ein gemeinsamer Verlauf. Freiwilligkeit, Fehlerfälle und Löschung gehören zu diesem Ablauf. Für die Vorstellung soll eine verständliche Visualisierung dieses Ablaufs entstehen; ein prüfbarer Prototyp ist eine mögliche Vertiefung. Eine funktionsfähige App ist damit noch nicht zugesagt.
+| ID | Regel | Prüfung |
+| --- | --- | --- |
+| **Q-01** | Zyklusangaben sind freiwillig. „Keine Angabe“ wird nicht als „keine Blutung“ oder als Zyklusphase behandelt. | AT-02, AT-04 |
+| **Q-02** | Der Kernablauf ist am Handy verständlich und bedienbar. Beschriftungen, Fehlerhinweise und Tastaturfokus sind erkennbar. | AT-07, BT-01; Zielwert siehe Z-04 |
+| **Q-03** | Im öffentlichen Repo und in der Demo verwenden wir nur künstliche Beispieldaten. | Datenprüfung vor Veröffentlichung |
+| **Q-04** | Gespeicherte Daten bleiben nach erneutem Öffnen in der gewählten Speicherlösung erhalten. Ein Speicherfehler wird gemeldet und nicht als Erfolg angezeigt. Speicherort und Löschung werden erklärt. | AT-01, AT-05, AT-08 |
+| **Q-05** | Die App zeigt Einträge, keine unbestätigten Leistungsprognosen, Ursachen oder berechneten Zyklusphasen. | AT-04 und Inhaltsprüfung |
 
-**Vorläufig außerhalb:** Ernährungstagebuch, Kalorien- und Fotoerkennung, automatische Trainingspläne nach Zyklusphase, KI-Coach, Wearable-Synchronisation, Flo-Import, Social Feed, Bezahlfunktionen und umfassende Übungsbibliothek. Neue Ideen werden im Backlog geparkt, statt still in den Umfang zu rutschen.
+Alle Qualitätsregeln gehören zum Kern. Die späteren [Prüfungen](07-erhebung-und-qualitaet.md) zeigen, wie wir sie kontrollieren.
 
-## Erfolg und Abnahme
+## Eingaberegeln als Vorschlag für morgen
 
-Als ergänzende Methode kann das Team Bedarfshypothesen mit zwei bis drei Gesprächen prüfen und eine Ablaufskizze mit zwei bis drei Personen durchgehen. Diese Anzahl ist keine Vorgabe aus der Mitschrift für M1. Diese kleine Anzahl dient zum Finden von Problemen, nicht zum Belegen einer repräsentativen Marktlücke.
+Diese Regeln machen den Entwurf konkreter. Sie sind **noch keine gemeinsame Entscheidung**. Wenn wir sie ändern, passen wir Stories, Entwurf und Tests zusammen an.
 
-Vorgeschlagenes Nutzbarkeitsziel: Mindestens zwei von drei Testpersonen können im Prototyp einen Check-in und einen Trainingseintrag finden und den Verlauf ohne direkte Hilfe erklären. Zielwert vor dem Test im Team bestätigen; tatsächliche Ergebnisse unverändert dokumentieren.
+- **Tages-Check-in:** Datum und Energie sind nötig. 1 bedeutet sehr wenig, 5 sehr viel Energie. Pro Tag gibt es einen Check-in; ein vorhandener wird zum Ändern geöffnet.
+- **Training:** Datum, Sportart und Dauer sind nötig. Zunächst ganze Minuten größer als null. Ein absolviertes Training liegt heute oder in der Vergangenheit. Mehrere Trainings pro Tag sind möglich.
+- **Zyklusangabe:** freiwillige Angabe zu einer beobachteten Blutung. Weglassen bedeutet unbekannt, nicht „nein“. Die konkrete Beschriftung prüfen wir im Entwurf.
+- **Fehler und Abbruch:** Fehler erklären, andere Formulareingaben behalten. Abbrechen legt keinen neuen Eintrag an.
+- **Datum:** Einträge werden dem lokalen Kalendertag zugeordnet, den die Nutzerin ausgewählt hat.
 
-Die spätere Produktabnahme orientiert sich an den verknüpften Akzeptanztests. Ein getesteter Klickprototyp erfüllt noch keine Anforderungen an Speicherung, Installierbarkeit oder Löschung einer echten App.
+## Was wir noch entscheiden
 
-## Offene Entscheidungen
-
-Zielgruppe und Kernproblem, verpflichtende Eingaben, Speichermodell, genaue Trainingsdetails, Plattformen, Projektname und finale Anforderungen der Lehrperson sind offen. Änderungen erhalten Datum, Begründung und betroffene IDs in [Entscheidungen](entscheidungen.md).
+Zielgruppe und Kernumfang bestätigen; Eingaberegeln prüfen; unterstützte Geräte, Speicher und Technik wählen. Ein Account ist bisher nicht erforderlich. Ob wir einen brauchen, hängt vom vereinbarten Bedarf ab. Zuständige Personen und Termine tragen wir im [Teamplan](05-team-und-plan.md) ein.

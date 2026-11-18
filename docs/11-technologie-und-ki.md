@@ -1,28 +1,24 @@
-# Technologie und KI-Unterstützung auswählen
+# Welche Technik wollen wir verwenden?
 
-**Status: Entscheidung offen.** Für die erste Vorstellung sollen Sprache und Werkzeuge begründet ausgewählt sein. Eine Liste verfügbarer APIs allein erfüllt diese Aufgabe nicht.
+**Noch nicht entschieden, Stand 18.11.2026.** Für die Vorstellung brauchen wir eine Auswahl mit einfachen Gründen. Möglichst viel Technik einzubauen ist kein eigenes Ziel.
 
-## Entscheidung durch das Team
+## Diese Fragen beantworten wir als Team
 
-| Entscheidung | Was vergleichen wir? | Ergebnis festhalten |
+| Entscheidung | Worauf achten wir? | Unsere Auswahl / Begründung |
 | --- | --- | --- |
-| Programmiersprache | Kenntnisse aller vier Personen, Eignung für Web-App, Lernaufwand | Auswahl mit Begründung und Alternativen |
-| Oberfläche / Framework | mobile Bedienung, Teamkenntnisse, Dokumentation, Testbarkeit | eine gemeinsame Grundlage statt vier Einzelentscheidungen |
-| Speicherung / Backend | Bedarf an Gerätewechsel, Datenmodell, Zugriff, Löschung, Betriebsaufwand | zunächst notwendiger Umfang, Erweiterungen separat |
-| Entwicklungs- und Testwerkzeuge | gemeinsamer Start, reproduzierbare Abhängigkeiten, passende Tests | erste Einrichtungstasks für nach M1 |
-| KI als Entwicklungsunterstützung | Zugang für das Team, Kosten, Nutzen, Nachprüfung und Hochschulvorgaben | Werkzeug, erlaubte Einsatzbereiche und Kennzeichnung |
-| KI als mögliche App-Funktion | konkreter Nutzerbedarf, Datenfluss, Qualitätsprüfung und Aufwand | nur bei begründetem Bedarf; aktuell kein festgelegter Bestandteil |
+| Sprache und Oberfläche | Was kennen wir? Reicht es für mobile Formulare und Verlauf? | offen |
+| Speicherung | Reicht ein Gerät oder brauchen wir Gerätewechsel? Wie funktionieren Laden, Fehler und Löschen? | offen |
+| Entwicklungs- und Testwerkzeuge | Können alle starten und Änderungen prüfen? | offen |
+| KI-Unterstützung | Wofür hilft sie uns? Haben alle Zugang? Wie prüfen und kennzeichnen wir Ergebnisse? | offen |
 
-„KI raussuchen“ ist in der Mitschrift nicht näher erklärt. Vorläufig prüfen wir KI-Unterstützung für die Entwicklung. Ob zusätzlich eine KI-Funktion im Produkt verlangt oder überhaupt gemeint ist, wird nachgefragt; wir bauen daraus keine automatische Produktanforderung.
+Pro Frage reichen zunächst ein bis zwei passende Optionen: Vorteile, Nachteile, Aufwand und ein Grund für die Auswahl. Technische Aussagen, Kosten und Versionen bei der Auswahl mit offizieller Dokumentation prüfen. Das Ergebnis in [Entscheidungen](entscheidungen.md) eintragen und den Lösungsentwurf anpassen.
 
-## Kurze Entscheidungsvorlage
+## APIs und vorhandene Bausteine
 
-Für höchstens zwei passende Optionen je wesentlicher Entscheidung: Name, offizielle Dokumentation mit Prüfdatum, Erfahrung im Team, Vorteile, Nachteile, Aufwand und offene Fragen erfassen. Kosten und technische Aussagen bei der eigentlichen Auswahl aktuell prüfen. Quellen für mögliche PWA-Bausteine und APIs stehen als ergänzende Vorarbeit in [Recherche](06-recherche.md).
+Wir verwenden vorhandene Lösungen, wenn sie eine unserer Anforderungen sinnvoll erfüllen. Zuerst prüfen wir Zugang, Browser-Unterstützung, Lizenz und Aufwand. Ein kleiner Versuch klärt Unsicherheiten, bevor wir eine Integration zusagen. Die [bisherige Recherche](06-recherche.md) ist dafür ein Ausgangspunkt; der manuelle Kernablauf braucht noch keine externe API.
 
-Beschluss: gewählte Option / Begründung / verworfene Alternative / Konsequenzen für Aufgaben / entschieden am / beteiligt. Entscheidung in `docs/entscheidungen.md` übernehmen. Derzeit ist keine bestimmte Sprache und kein Framework beschlossen.
+## Was heißt hier KI?
 
-## Gemeinsame Arbeit in diesem Chat
+KI beim Formulieren oder Programmieren ist ein **Arbeitswerkzeug**. Ein KI-Coach in unserer App wäre eine **eigene Funktion** mit Bedarf, Aufwand und Tests. Was der Dozent mit „KI raussuchen“ meint, fragen wir nach. Ein KI-Coach gehört bisher nicht zu unserem Kern.
 
-Dieser Chat begleitet das Gesamtprojekt vom Start über Anforderungen und Entwurf bis zur Implementierung, Tests und Abgabe. Recherchen sind einzelne Arbeitspakete innerhalb dieses Projekts. Verbindliche Teamentscheidungen und Ergebnisse werden im Repository festgehalten, damit alle vier darauf zugreifen können und der Projektstand nicht nur im Chat existiert.
-
-KI-Ausgaben werden im Team geprüft. Für die Abgabe halten wir fest, wobei KI unterstützt hat und welche Inhalte wir selbst geprüft oder geändert haben. Aktuell wurde dieses Projektgerüst mit KI-Unterstützung vorbereitet; das ist keine bereits vereinbarte Toolauswahl für das gesamte Team.
+KI-Vorschläge lesen, verstehen und prüfen wir selbst. Wir halten fest, wobei Unterstützung verwendet wurde. Das Repo-Gerüst wurde mit KI vorbereitet; eine gemeinsame Toolauswahl ist damit noch nicht getroffen. Die Hochschulvorgaben zur Kennzeichnung klären wir ebenfalls.

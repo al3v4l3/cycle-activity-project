@@ -22,6 +22,16 @@ Dieses Protokoll unterscheidet **bestätigte Vorgaben**, **Vorschläge** und **o
 | E-011 | 11.11.2026 | Arbeitsgrundlage aus Team-Mitschrift | M1 umfasst Prosa, Anforderungen, Stories, Backlog, Konsistenz/Vollständigkeit, Bild, Repo, Kanban, Kommunikation, Sprach-/KI-Auswahl und Priorisierung. |
 | E-012 | 11.11.2026 | Arbeitsgrundlage aus Team-Mitschrift | Erste Implementierungsiteration nach der Vorstellung gegen Semesterende; genauer Termin offen. |
 
+## Ergänzung für das Gruppentreffen am 19.11.
+
+| ID | Datum | Status | Inhalt / Konsequenz |
+| --- | --- | --- | --- |
+| E-013 | 18.11.2026 | Rückmeldung des Projektinitiators zur Dozentenbesprechung | Jetzt steht die Operationalisierung des Projektziels im Vordergrund. Ziel, Erfolgskriterien und Prüfungen wurden als Vorschlag ergänzt. |
+| E-014 | 18.11.2026 | Vorschlag, Teamentscheidung offen | Z-01 bis Z-04 und die konkreteren Eingaberegeln sollen morgen besprochen werden. Noch keine Zustimmung oder erfolgreichen Tests behauptet. |
+| E-015 | 18.11.2026 | Vorbereitung, keine durchgeführte Sitzung | Gruppentreffen für 19.11. angekündigt. Unterlagen vereinfacht, interne Vorbereitung bis 01.12. geplant. Genauen Vorstellungstermin weiterhin klären. |
+
+Nach dem Treffen festhalten, was wir bestätigt, geändert oder verworfen haben. Keine rückwirkenden Beschlüsse eintragen.
+
 ## Neue Entscheidung
 
 ID und Datum:

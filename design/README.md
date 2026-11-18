@@ -1,7 +1,7 @@
-# Projektbild, Entwürfe und Prototypen
+# Unsere Bilder und Skizzen
 
-Für M1 entsteht hier in T-06 eine eigene Übersicht oder ein Wireframe, der die Idee erklärt. Ob mit „Bild“ eine bestimmte Darstellung gemeint ist, klärt T-02. Aktuell ist noch kein Projektbild vorhanden.
+Der erste Ablauf steht als Bild im [Lösungsentwurf](../docs/03-pflichtenheft.md). Für die Vorstellung überarbeiten wir ihn gemeinsam oder zeichnen einfache Ansichten: **Heute → Training → Verlauf**.
 
-Vorgeschlagene Ansichten: Tages-Check-in, freiwillige Zyklusangabe, Trainingseintrag, gemeinsamer Verlauf und Löschung. Eine einfache Übersicht reicht als erster Entwurf. Mehrere Papier- oder Klickansichten sind eine mögliche Vertiefung, keine bestätigte Pflicht für M1.
+Ein Blatt Papier oder einfache Wireframes reichen zum Einstieg. Das Bild muss zu unserem Ziel und den Anforderungen passen und soll sich ohne lange Erklärung verstehen lassen. Ausschließlich künstliche Beispieldaten verwenden.
 
-Dateien mit Datum und Version benennen. Eine kurze Begleitnotiz nennt Story-IDs, offene Fragen und Änderungen nach Feedback. Ausschließlich erfundene Beispieldaten verwenden. Ein Link zu einem gemeinsam nutzbaren Designwerkzeug ist ebenfalls möglich; Zugriff vor der Präsentation prüfen.
+Neue Skizzen hier ablegen und mit Datum sowie passenden Story-IDs versehen. Ein Klickprototyp ist eine mögliche Vertiefung; welche Bildart der Dozent genau erwartet, klären wir noch. Die Aufgabe dazu ist [T-06](https://github.com/al3v4l3/cycle-activity-project/issues/6).

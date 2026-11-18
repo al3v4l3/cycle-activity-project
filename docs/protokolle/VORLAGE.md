@@ -1,27 +1,29 @@
-# Besprechungsprotokoll
+# Unser Treffen
 
-Diese Datei kopieren und als `JJJJ-MM-TT-thema.md` speichern. Nur tatsächliche Treffen und Ergebnisse eintragen.
+Vorlage erst nach einem tatsächlichen Treffen ausfüllen und als `JJJJ-MM-TT-thema.md` speichern.
 
-Datum, Dauer, Teilnehmende, Moderation:
+**Datum / Dauer / dabei:**
 
-Ziel des Treffens:
+**Was wollten wir klären?**
 
-## Ergebnisse und Entscheidungen
+## Das haben wir entschieden
 
-| Thema | Tatsächliches Ergebnis | Entscheidung / offene Frage | Nachweis |
-| --- | --- | --- | --- |
-| ausfüllen | ausfüllen | ausfüllen | Link |
+| Frage | Entscheidung oder noch offen | Betroffene Datei / ID |
+| --- | --- | --- |
+| Zielgruppe und Projektziel | ausfüllen | Zieltabelle |
+| Erfolgskriterien | bestätigt / geändert / offen | Z-01 bis Z-04 |
+| Kernumfang und Regeln | ausfüllen | F-/Q-IDs, Stories |
 
-## Nächste Aufgaben
+## Das machen wir als Nächstes
 
-| Issue | Ergebnis bis zum nächsten Treffen | Verantwortung | Prüfung | Zieltermin |
+| Aufgabe / Issue | Konkretes Ergebnis | Wer? | Wer prüft? | Bis wann? |
 | --- | --- | --- | --- | --- |
-| Link | ausfüllen | ausfüllen | ausfüllen | ausfüllen |
+| ausfüllen | ausfüllen | ausfüllen | ausfüllen | ausfüllen |
 
-## Review und kurze Retro
+**Was haben wir uns gegenseitig gezeigt? Was ändern wir dadurch?**
 
-Was wurde gezeigt? Welches Feedback gab es? Welche Änderung folgt daraus?
+**Was lief gut? Eine Verbesserung für das nächste Treffen:**
 
-Was lief in unserer Zusammenarbeit gut? Was hat behindert? Welche **eine konkrete Verbesserung** versuchen wir nächste Woche und wer achtet darauf?
+**Offene Frage an den Dozenten und wer sie klärt:**
 
-Nächster Termin:
+**Nächster Termin:**

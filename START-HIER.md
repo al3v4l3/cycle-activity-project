@@ -1,61 +1,49 @@
-# Eure erste gemeinsame Stunde
+# Unser Gruppentreffen am 19.11.2026
 
-**Noch keine Vorlesung besucht?** Beginne mit der [Projektwerkstatt](lernen/README.md). Der schnelle Lernpfad durch Kapitel 01, 03, 04, 06 und 11 erklärt die Begriffe und das Vorgehen für dieses Treffen. Für den vollständigen Einstieg gibt es zwölf Kapitel mit Übungen.
+**Ziel der Stunde:** Wir verstehen dieselbe Projektidee, entscheiden einen kleinen Umfang und verteilen die nächsten Aufgaben. Die folgenden Inhalte sind vorbereitet, aber noch nicht gemeinsam beschlossen.
 
-**Ziel nach 60 Minuten:** Ihr könnt in einem Satz erklären, für wen ihr welches Problem löst. Ihr habt den ersten Umfang eingegrenzt, jede Person hat eine Aufgabe und das nächste Treffen steht fest. Ihr müsst heute noch keine App programmieren.
+## So kannst du das Repo zuerst vorstellen – etwa 5 Minuten
 
-Lest zuerst die [M1-Checkliste aus der Mitschrift](docs/09-meilenstein-vorstellung.md). Dieses Repository begleitet anschließend auch die Entwicklung und Tests.
+1. **[Projektziel öffnen](docs/00-projektziel.md):** „Wir wollen Training und Tagesbefinden zusammen dokumentieren. Zyklusangaben sind freiwillig. Heute legen wir fest, was das genau heißt und wie wir Erfolg prüfen.“
+2. **[Anforderungen zeigen](docs/02-lastenheft.md):** „Hier steht, was die App können soll. F ist eine Funktion, Q eine Qualitätsregel. Die Nummern helfen uns, nichts zu vergessen.“
+3. **[US-03 im Backlog zeigen](docs/04-user-stories.md#us-03--training-eintragen):** „Hier beschreiben wir den Trainingseintrag aus Nutzersicht. Die Punkte darunter sagen, wann er funktioniert.“
+4. **[Ablaufbild zeigen](docs/03-pflichtenheft.md):** „So könnte man durch die App gehen. Das ist noch ein Entwurf.“
+5. **[Board öffnen](https://github.com/users/al3v4l3/projects/1/views/1):** „Die Karten sind unsere Aufgaben. Wir wählen heute, wer welche vorbereitet. Ein fertiger Text ist noch keine fertige App-Funktion.“
 
-## 0 bis 10 Minuten · Gemeinsames Problem
+Du musst nicht alle Dateien vorlesen. Die [M1-Checkliste](docs/09-meilenstein-vorstellung.md) zeigt zum Schluss, was wir für den Dozenten noch vorbereiten.
 
-Lest die [Vision im Lastenheft](docs/02-lastenheft.md). Jede Person nennt eine konkrete Situation, die die App verbessern soll. Beispiel: „Ich möchte im Rückblick sehen, wie anstrengend mein Training an Tagen mit unterschiedlichem Befinden war.“
+## Danach gemeinsam entscheiden – etwa 55 Minuten
 
-Entscheidet eine erste Zielgruppe, etwa erwachsene Freizeitsportlerinnen mit regelmäßigem Krafttraining. Prüft ausdrücklich, ob Personen ohne regelmäßigen Zyklus die Kernfunktionen ebenso nutzen können. Übernehmt Annahmen noch nicht als Interviewergebnisse.
-
-**Ergebnis:** Problem, Zielgruppe und wichtigste offene Annahme in [Entscheidungen](docs/entscheidungen.md) eintragen.
-
-## 10 bis 20 Minuten · Kleinen Umfang auswählen
-
-Lest die vorgeschlagenen User Stories US-01 bis US-05 im [Backlog](docs/04-user-stories.md). Wählt einen Ablauf, den ihr zuerst verstehen und später zeigen wollt:
-
-**Tagesbefinden eintragen → Training dokumentieren → beides im Verlauf ansehen.**
-
-Wählt maximal drei Kernfunktionen. Freiwilligkeit und Löschung bleiben Qualitätsanforderungen an diesen Umfang. HealthKit, Flo und Ernährung kommen in den Parkplatz, bis der Kernnutzen geklärt ist. Das ist ein Vorschlag, den ihr mit Begründung ändern könnt.
-
-**Ergebnis:** Umfang und ausgeschlossene Funktionen im Lastenheft markieren.
-
-## 20 bis 30 Minuten · Zuständigkeiten und Zeit
-
-Tragt eure vier Namen oder GitHub-Nutzernamen in [Team und Plan](docs/05-team-und-plan.md) ein. Jede Person nennt die real verfügbaren Stunden für die nächste Woche. Wählt eine Ansprechperson für Prioritäten und eine für Organisation; das sind keine Vorgesetzten.
-
-**Ergebnis:** Jede Aufgabe hat eine verantwortliche Person und eine andere Person zur Prüfung. Noch offene Einladungen zum Repository über die Einstellungen erledigen; GitHub-Nutzernamen fehlen im Startgerüst.
-
-## 30 bis 45 Minuten · Erste Aufgaben übernehmen
-
-Öffnet das [Kanban-Board](https://github.com/users/al3v4l3/projects/1) und die verknüpften Aufgaben. Beginnt mit diesen vier Paketen, sofern die gemeinsame Abstimmung abgeschlossen ist:
-
-| Person | Erstes Arbeitspaket | Sichtbares Ergebnis |
+| Zeit | Was machen wir? | Was halten wir fest? |
 | --- | --- | --- |
-| A | Einleitung und Motivation ausarbeiten; offene Bedarfsfragen sammeln | Abgestimmter Fließtext und Fragen für ergänzende Gespräche |
-| B | Lastenheft und drei User Stories prüfen | Priorisierte Stories mit prüfbaren Akzeptanzkriterien |
-| C | Programmiersprache, Werkzeuge und KI-Unterstützung vergleichen | Begründeter Technologievorschlag; APIs als Teilaspekt |
-| D | Ablauf skizzieren und Nachweise strukturieren | Projektbild oder Wireframe; Kanban und Kommunikationsvereinbarung |
+| 5–15 min | Ziel und Motivation lesen. Passt die vorgeschlagene Zielgruppe? Welches Problem sehen wir? | Gemeinsames Ziel und eine noch ungeprüfte Annahme |
+| 15–30 min | Anforderungen und Stories durchgehen. Reichen Befinden, Training und Verlauf als Kern? | Erster Umfang, Prioritäten und Änderungen |
+| 30–40 min | Erfolgskriterien prüfen: Was wollen wir später beobachten oder testen? | Kriterien aus der Zieltabelle bestätigen oder ändern |
+| 40–50 min | Vier Arbeitspakete auswählen. Reale Zeit bis zum nächsten Treffen nennen. | Zuständigkeiten, Aufwand und zweite Person zum Gegenlesen |
+| 50–60 min | Termin, Kommunikation und offene Dozentenfragen klären. | Kurzes Protokoll und nächster Termin |
 
-Das sind **Verantwortungsbereiche, keine vier getrennten Teilprojekte**. A und B stimmen Bedürfnisse ab, B und D prüfen den Ablauf, C prüft die Machbarkeit. Zeichnen auf Papier reicht für die erste Skizze. Keine Zugangsdaten oder Gesundheitsdaten in Issues schreiben.
+## Vier mögliche Arbeitspakete
 
-Schätzt die Arbeit gemeinsam in Personenstunden. Die vorbereiteten Schätzbereiche sind Startannahmen. Plant nur, was in eure verfügbare Zeit passt; lasst einen Puffer.
+| Person – Namen noch einsetzen | Aufgabe | Ergebnis |
+| --- | --- | --- |
+| A | Ziel und Motivation überarbeiten | Kurzer Text und abgestimmte Erfolgskriterien |
+| B | Anforderungen und Stories prüfen | Kleiner Kernumfang, Kriterien und Backlog-Reihenfolge |
+| C | Technik vergleichen | Vorschlag für Sprache, Oberfläche, Speicherung und KI-Werkzeug mit Gründen |
+| D | Bild und Zusammenarbeit vorbereiten | Verständliche Skizze, gepflegtes Board und Kommunikationsregeln |
 
-## 45 bis 55 Minuten · Eine Story gemeinsam verbessern
+Alle stimmen den Kern ab. Jede Person liest außerdem ein Ergebnis einer anderen Person gegen. Das sind keine vier getrennten Projekte.
 
-Nehmt US-01. Klärt Rolle, Nutzen, Pflichtfelder, freiwillige Felder und einen Fehlerfall. Zerlegt ihre nächste Bearbeitung in Aufgaben, etwa Eingaben festlegen, Formular skizzieren und mit einer Person durchgehen. Die spätere Programmierung wird erst nach dieser Klärung geplant.
+## Diese Vorschläge besonders besprechen
 
-**Ergebnis:** Eine kleine, verstandene Story und Aufgaben, deren Fertigstellung jemand anderes prüfen kann.
+- Passt „erwachsene Freizeitsportlerinnen, die regelmäßig trainieren“ als erste Zielgruppe?
+- Reichen Energie von 1 bis 5, Datum, Sportart und Dauer für den ersten Entwurf?
+- Ist ein bearbeitbarer Check-in je Tag sinnvoll? Wollen wir zunächst nur ganze Trainingsminuten und keine zukünftigen Trainingseinträge?
+- Sind unsere vorgeschlagenen Erfolgskriterien realistisch, besonders der kurze Bedienungstest?
+- Ist das Hinzufügen zum Startbildschirm schon im ersten Produktumfang wichtig?
+- Wer hat wie viel Zeit? Wer bekommt Zugriff auf Repo **und** Board?
 
-## 55 bis 60 Minuten · Vereinbarungen sichern
+Antworten in [Entscheidungen](docs/entscheidungen.md) und in den betroffenen Dokumenten eintragen. Die [Protokollvorlage](docs/protokolle/VORLAGE.md) erst nach dem echten Treffen ausfüllen.
 
-- Nächstes Treffen mit Datum und Dauer vereinbaren.
-- Fragen zu Abgabe, Zwischenpräsentation, Pflichtdokumenten und KI-Kennzeichnung einer Person zuordnen.
-- [Protokollvorlage](docs/protokolle/VORLAGE.md) kopieren und echte Beschlüsse festhalten.
-- Zuständigkeiten im Issue und Arbeitsstatus im Kanban-Board aktualisieren.
+## Am Ende kann jede Person sagen
 
-**Fertig für heute**, wenn jede Person sagen kann: „Bis zum nächsten Treffen liefere ich X. Y prüft es. Erledigt ist es, wenn Z erfüllt ist.“
+„Bis zum nächsten Treffen liefere ich **dieses Ergebnis**. **Diese Person** liest es gegen. Fertig ist es, wenn **diese Kriterien** erfüllt sind.“
