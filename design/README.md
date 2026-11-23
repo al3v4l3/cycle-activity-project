@@ -1,5 +1,5 @@
 # Entwürfe
 
-Die [Ablaufskizze](../docs/03-pflichtenheft.md) beschreibt die Bereiche **Heute**, **Training** und **Verlauf**. Weitere Wireframes und Bildschirmzeichnungen werden hier abgelegt.
+Die [App-Übersicht](app-uebersicht.svg) zeigt geplante Hauptbereiche mit künstlichen Beispieldaten. Sie ist ein Wireframe, kein Screenshot einer fertigen Anwendung.
 
-Entwürfe werden mit den zugehörigen Story-IDs versehen. Beispieldaten sind künstlich. Bild und Anforderungen müssen denselben Umfang beschreiben.
+Ablauf und Story-Bezug stehen im [Entwurf](../docs/04-entwurf.md). Weitere Skizzen werden hier ergänzt.

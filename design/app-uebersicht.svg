@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="700" viewBox="0 0 1080 700" role="img" aria-labelledby="title desc">
+<title id="title">Ansichtsentwurf für Fitness und Zyklus</title>
+<desc id="desc">Drei geplante Ansichten: Kalender und Kategorien, Aktivität erfassen und Trainingsvorschlag. Drahtmodell mit künstlichen Beispieldaten, keine fertige App.</desc>
+<style>text{font-family:Arial,sans-serif;fill:#222} .h{font-size:21px;font-weight:bold}.t{font-size:16px}.s{font-size:14px;fill:#555}.box{fill:#fff;stroke:#666;stroke-width:1.5}.soft{fill:#f1f1f1;stroke:#999}.label{font-size:16px;font-weight:bold}</style>
+<rect width="1080" height="700" fill="#fff"/>
+<text x="30" y="37" class="h">Fitness und Zyklus – Ansichtsentwurf</text>
+<text x="30" y="65" class="s">Geplante Ansichten mit Beispieldaten. Die App ist noch nicht umgesetzt.</text>
+<rect x="30" y="95" width="320" height="500" rx="15" class="box"/>
+<text x="50" y="134" class="h">Kalender</text><text x="50" y="160" class="s">US-12 · Priorität noch offen</text>
+<rect x="50" y="181" width="280" height="42" class="soft"/>
+<text x="64" y="208" class="t">Essen  |  Zyklus  |  Aktivitäten</text>
+<text x="50" y="257" class="label">Beispielwoche</text>
+<rect x="50" y="275" width="280" height="55" class="box"/>
+<text x="63" y="308" class="t">Mo   Di   Mi   Do   Fr   Sa   So</text>
+<rect x="50" y="350" width="280" height="100" class="soft"/>
+<text x="65" y="377" class="label">Gewählter Tag</text><text x="65" y="405" class="t">Aktivität: 30 Min. Krafttraining</text><text x="65" y="432" class="s">Zyklusdaten: keine Angabe</text>
+<rect x="50" y="478" width="280" height="42" class="box"/>
+<text x="94" y="505" class="t">Aktivität hinzufügen</text>
+<text x="50" y="565" class="s">Vorhandene Einträge nach Datum</text>
+<rect x="380" y="95" width="320" height="500" rx="15" class="box"/>
+<text x="400" y="134" class="h">Aktivität erfassen</text><text x="400" y="160" class="s">US-03 · sehr wichtig</text>
+<text x="400" y="203" class="label">Datum</text><rect x="400" y="215" width="280" height="40" class="box"/><text x="415" y="242" class="t">Gewählten Tag auswählen</text>
+<text x="400" y="290" class="label">Aktivitätsart</text><rect x="400" y="302" width="280" height="40" class="box"/><text x="415" y="329" class="t">Krafttraining</text>
+<text x="400" y="378" class="label">Dauer als vorgeschlagenes Feld</text><rect x="400" y="390" width="280" height="40" class="box"/><text x="415" y="417" class="t">30 Minuten</text>
+<rect x="400" y="478" width="132" height="42" class="soft"/><text x="426" y="505" class="t">Speichern</text><rect x="548" y="478" width="132" height="42" class="box"/><text x="573" y="505" class="t">Abbrechen</text>
+<text x="400" y="565" class="s">Felder vor Umsetzung abstimmen</text>
+<rect x="730" y="95" width="320" height="500" rx="15" class="box"/>
+<text x="750" y="134" class="h">Trainingsvorschlag</text><text x="750" y="160" class="s">US-02 · sehr wichtig</text>
+<text x="750" y="203" class="label">Persönliches Ziel</text><rect x="750" y="215" width="280" height="40" class="box"/><text x="765" y="242" class="t">Ziel auswählen</text>
+<rect x="750" y="280" width="280" height="112" class="soft"/>
+<text x="765" y="309" class="label">Vorschlag</text><text x="765" y="338" class="t">Inhalt nach festgelegten Regeln</text><text x="765" y="366" class="s">Regeln und Datenbedarf noch offen</text>
+<text x="750" y="426" class="label">Grundlage</text><text x="750" y="454" class="t">Vorhandene Daten und Ziel</text><text x="750" y="481" class="s">Fehlende Daten erklären</text>
+<rect x="750" y="513" width="280" height="42" class="box"/><text x="807" y="540" class="t">Datenverbindungen</text>
+<text x="30" y="637" class="s">Datenverbindungen: Zyklusimport (US-01) und Health-/Uhrendaten (US-04) zuerst auf Machbarkeit prüfen.</text>
+<text x="30" y="665" class="s">Ernährung und zusätzliche Auswertungen: mittlere Priorität. Farben und Detailgestaltung folgen später.</text>
+</svg>
