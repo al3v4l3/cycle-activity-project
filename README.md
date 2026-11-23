@@ -1,46 +1,40 @@
-# Fitness & Zyklus
+# Fitness und Zyklus
 
-Eine mobile Web-App, die Training, Tagesbefinden und freiwillige Zyklusangaben in einem gemeinsamen Verlauf zusammenführt.
+Wir planen eine App, die Zyklus, Sport, Ernährung und Gesundheit an einer Stelle verbindet. Sie soll vorhandene Daten zusammenführen, Aktivitäten festhalten und passende Trainingsvorschläge geben. **CSAH** ist der Arbeitstitel.
 
-Die Nutzerin kann Einträge festhalten, später vergleichen und selbst entscheiden, welche Angaben sie speichern oder löschen möchte. Der Arbeitstitel ist **CSAH**.
+**Stand:** Planung. Zuerst Android, iOS bei ausreichender Zeit. Dieses Repository enthält die Projektunterlagen und später auch den Anwendungscode und die Tests.
 
-## Projektstand
+## Projektunterlagen in Reihenfolge
 
-Anforderungen, User Stories und Lösungsentwurf liegen als Entwurf vor. Die Anwendung befindet sich in der Planungsphase.
+| Schritt | Inhalt | Ergebnis |
+| --- | --- | --- |
+| **1** | [Motivation und Ziele](docs/01-motivation-und-ziele.md) | Warum die App? Für wen? Woran erkennen wir, dass ein Ziel erreicht ist? |
+| **2** | [Anforderungen](docs/02-anforderungen.md) | Was soll die App können? Was ist wichtig, was optional? Unser kurzes Lastenheft. |
+| **3** | [User Stories und Product Backlog](docs/03-product-backlog.md) | Funktionen aus Nutzersicht, Kriterien und Links zu den Aufgaben. |
+| **4** | [Entwurf](docs/04-entwurf.md) | Ansichten, Ablaufbild und Daten. Unser erster Entwurf für das Pflichtenheft. |
+| **5** | [Technik](docs/05-technik.md) | Sprache, Schnittstellen, Werkzeuge und offene Entscheidungen. |
+| **6** | [Organisation](docs/06-organisation.md) | Zuständigkeiten, Kommunikation und aktuelle Planungsaufgaben. |
+| **7** | [Projektvorstellung und Prüfung](docs/07-projektvorstellung.md) | Überblick über die Ergebnisse und noch offene Punkte. |
 
-## Dokumentation
+Wir gehen diese Schritte durch und passen frühere Punkte bei neuen Erkenntnissen an. Eine Story und ihre Aufgaben können also auch eine Anforderung genauer machen.
 
-| Thema | Dokument |
-| --- | --- |
-| Ziel und Erfolgskriterien | [Projektziel](docs/00-projektziel.md) |
-| Motivation | [Einleitung](docs/10-einleitung-und-motivation.md) |
-| Anforderungen | [Lastenheft](docs/02-lastenheft.md) |
-| Ablauf und Daten | [Pflichtenheft](docs/03-pflichtenheft.md) |
-| Funktionen und Prioritäten | [User Stories / Product Backlog](docs/04-user-stories.md) |
-| Aufgaben und Vorgehen | [Arbeitsplan](docs/05-team-und-plan.md), [Vorgehen](docs/01-vorgehen.md) |
-| Qualität | [Testplan](docs/07-erhebung-und-qualitaet.md) |
-| Technik | [Technikauswahl](docs/11-technik.md), [Recherche](docs/06-recherche.md) |
-| Meilensteine | [Erste Projektvorstellung](docs/09-meilenstein-vorstellung.md) |
-| Entscheidungen | [Entscheidungsübersicht](docs/entscheidungen.md) |
+## GitHub verwenden
 
-**[Kanban-Board](https://github.com/users/al3v4l3/projects/1/views/1)** · **[Issues](https://github.com/al3v4l3/cycle-activity-project/issues)**
+**[Kanban-Board](https://github.com/users/al3v4l3/projects/1/views/1)** · **[Product Backlog](https://github.com/users/al3v4l3/projects/1/views/2)** · **[Planungsaufgaben](https://github.com/users/al3v4l3/projects/1/views/3)**
 
-## Geplanter Kernumfang
+- **Code:** Dateien und diese Übersicht.
+- **Issues:** einzelne Planungsaufgaben und User Stories öffnen, besprechen und übernehmen.
+- **Projects:** dieselben Issues als Tabelle oder Kanban ansehen.
+- **Pull requests:** Änderungen vergleichen und in `main` zusammenführen.
 
-- Tagesbefinden festhalten
-- Training dokumentieren
-- Freiwillige Zyklusangaben ergänzen
-- Gemeinsamen Verlauf ansehen
-- Eigene Einträge löschen
+Der Weg durch ein Thema ist **Ziel → Anforderung → Story-Issue → Aufgaben in der Story → Board**. Die Links verbinden die Einträge. Den GitHub-Ablauf erklärt [CONTRIBUTING.md](CONTRIBUTING.md).
 
-Erweiterungen wie Ernährung, Wearables oder automatische Trainingspläne gehören zunächst nicht zum Kernumfang.
+## Ordner
 
-## Aufbau
-
-- `src/` – Anwendungscode
-- `tests/` – ausführbare Tests
-- `design/` – Skizzen und Entwürfe
-- `docs/` – Projektdokumentation
-- `.github/` – Vorlagen für die Zusammenarbeit
-
-Der Ablauf für Änderungen steht in [CONTRIBUTING.md](CONTRIBUTING.md).
+```text
+docs/       Projektunterlagen
+design/     Bilder und Entwürfe
+src/        späterer Anwendungscode
+tests/      spätere ausführbare Tests
+.github/    Vorlagen für Issues und Pull Requests
+```

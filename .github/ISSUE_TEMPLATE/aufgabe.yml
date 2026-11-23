@@ -1,38 +1,33 @@
-name: Aufgabe
-description: Ein klar abgegrenztes Arbeitspaket mit Ergebnis und Fertig-Kriterien
-title: "[Task] "
+name: Planungsaufgabe
+description: Eine Aufgabe für Anforderungen, Entwurf oder Projektorganisation
+title: "T-XX · "
+labels: ["planung"]
 body:
   - type: textarea
-    id: outcome
+    id: result
     attributes:
       label: Ergebnis und Bezug
-      description: Was liefern wir? Welche Story, Anforderung oder Projektaufgabe gehört dazu?
+      description: Was soll entstehen? Dokument oder Story verlinken.
     validations:
       required: true
   - type: textarea
-    id: organisation
+    id: criteria
+    attributes:
+      label: Fertig, wenn
+      value: "- [ ] "
+    validations:
+      required: true
+  - type: textarea
+    id: plan
     attributes:
       label: Planung
       value: |
-        Arbeitsstatus: im Kanban-Board pflegen
-        Verantwortlich: offen
-        Prüfung durch: offen
-        Priorität: 10 / 20 / 50
-        Aufwand in Personenstunden und Annahmen: offen
-        Zieltermin: offen
-        Abhängigkeiten: offen
-    validations:
-      required: true
-  - type: textarea
-    id: done
-    attributes:
-      label: Fertig-Kriterien
-      value: |
-        - [ ] Ergebnis ist im zuständigen Dokument verlinkt.
-        - [ ] Inhalt wurde durch eine zweite Person geprüft.
-    validations:
-      required: true
+        Zuständig: über Assignees festlegen
+        Aufwand in Personenstunden:
+        Abhängigkeiten:
+        Zieltermin:
   - type: textarea
     id: evidence
     attributes:
-      label: Ergebnislink und offene Fragen
+      label: Ergebnis und Prüfung
+      description: Nach Bearbeitung Ergebnislink und Prüfung ergänzen.

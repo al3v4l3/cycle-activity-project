@@ -2,20 +2,16 @@
 
 Datum:
 
-Teilnehmende:
+## Ergebnisse und Entscheidungen
 
-## Ergebnisse
-
-| Thema | Ergebnis / Entscheidung | Bezug |
+| Thema | Ergebnis und kurzer Grund | Betroffenes Issue |
 | --- | --- | --- |
 | | | |
 
 ## Aufgaben
 
-| Issue | Ergebnis | Zuständig | Prüfung | Termin |
-| --- | --- | --- | --- | --- |
-| | | | | |
+| Issue | Zuständig | Vereinbarter Aufwand | Termin |
+| --- | --- | --- | --- |
+| | | | |
 
-## Offene Punkte
-
-## Nächster Termin
+## Offene Fragen

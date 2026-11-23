@@ -1,5 +1,5 @@
-# Anwendung
+# Anwendungscode
 
-Hier entsteht der Anwendungscode. Sprache, Framework und Speicherung sind noch auszuwählen. Die Kriterien stehen in der [Technikauswahl](../docs/11-technik.md).
+Hier entsteht später die App. Im aktuellen Semester planen wir das Produkt. Die [Technikauswahl](../docs/05-technik.md) ist noch offen.
 
-Installations-, Start- und Entwicklungsbefehle werden mit dem technischen Grundgerüst ergänzt.
+Installations- und Startbefehle folgen mit dem technischen Grundgerüst.

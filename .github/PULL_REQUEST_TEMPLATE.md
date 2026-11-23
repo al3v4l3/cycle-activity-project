@@ -1,20 +1,15 @@
-## Ergebnis
+## Änderung
 
-Was wurde geändert und wofür ist das hilfreich?
+Was wurde geändert und warum?
 
 ## Bezug
 
-Refs #… / Anforderung F-… / Story US-…
+Refs #…
 
 ## Prüfung
 
-Wie wurde das Ergebnis geprüft? Wer hat gegengelesen?
+Wie wurde die Änderung geprüft? Was ist noch offen?
 
-- [ ] Aussagen, Quellen und offene Annahmen sind unterscheidbar.
-- [ ] Betroffene Anforderungen und Entscheidungen sind aktualisiert.
-- [ ] Keine persönlichen Gesundheitsdaten, Rohinterviews, Zugangsdaten oder Moodle-Dateien enthalten.
-- [ ] Der dokumentierte Status entspricht der tatsächlichen Arbeit.
-
-## Offene Punkte
-
-Was muss noch geklärt werden?
+- [ ] Betroffene Anforderungen, Stories und Entwürfe passen zusammen.
+- [ ] Links und angegebener Stand stimmen.
+- [ ] Keine Zugangsdaten oder echten Gesundheitsdaten enthalten.

@@ -1,36 +1,38 @@
 name: User Story
-description: Ein Nutzerbedürfnis klären, priorisieren und mit dem Backlog verknüpfen
-title: "[Story] "
+description: Eine geplante Produktfunktion mit Nutzen, Kriterien und Aufgaben
+title: "US-XX · "
+labels: ["story", "prio:offen"]
 body:
   - type: textarea
     id: story
     attributes:
-      label: Rolle, Wunsch und Nutzen
+      label: User Story
       value: "Als … möchte ich …, damit …"
     validations:
       required: true
   - type: textarea
-    id: planning
+    id: reference
     attributes:
       label: Bezug und Planung
       value: |
-        Story-ID und Link zum Backlog: offen
-        Anforderung: offen
-        Reifegrad: Entwurf
-        Arbeitsstatus: im Kanban-Board pflegen
-        Priorität (10 zuerst, 20 danach, 50 später): offen
-        Aufwand mit Einheit und Annahmen: ungeschätzt
-        Verantwortlich / Prüfung: offen
+        Ziel und Anforderung:
+        Priorität: 10 (Rot) / 20 (Gelb) / 50 (Grün) / offen
+        Phase: spätere Produktumsetzung
+        Aufwand in Personenstunden: noch schätzen
+        Offene Fragen:
     validations:
       required: true
   - type: textarea
     id: acceptance
     attributes:
-      label: Akzeptanzkriterien und Nutzenprüfung
-      description: Beobachtbares Ergebnis sowie Fehler- oder Leerfall nennen. Freigegebene Kriterien ins Backlog übernehmen.
+      label: Akzeptanzkriterien
+      description: Woran erkennen wir, dass die Funktion erfüllt ist? Auch relevante Fehlerfälle nennen.
+      value: "- [ ] "
     validations:
       required: true
   - type: textarea
     id: tasks
     attributes:
-      label: Aufgaben, Abhängigkeiten und offene Fragen
+      label: Aufgaben und Abhängigkeiten
+      description: Kleine Arbeitsschritte und Links zu Planungsaufgaben. Größere Tasks später als eigenes Issue anlegen.
+      value: "- [ ] "
